@@ -1,0 +1,68 @@
+@startuml
+title UC-VGL-005.01.03 - MF PSR Analysis
+|MF or AR (Proposer/Confirmer)|
+|System|
+|MF or AR (Proposer/Confirmer)|
+start
+:Initial Problem Statement & Backround - Preliminary results
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24650 EUDAMEDMDR-24650]];
+:Initial Problem Statement & Backround - Further Investigations
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24650 EUDAMEDMDR-24650]];
+:Initial Cause Investigaiton and conclusion - evaluation description
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24651 EUDAMEDMDR-24651]];
+:Initial Cause Investigaiton and conclusion - root cause confirmed
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24651 EUDAMEDMDR-24651]];
+:Initial Cause Investigaiton and conclusion - Risk assesment reviewed
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24651 EUDAMEDMDR-24651]];
+if (Risk assesment reviewed) then (Yes)
+  :Initial Cause Investigaiton and conclusion - risk assesment adequate
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24651 EUDAMEDMDR-24651]]
+  BR-VGL-PSR-005.20;
+  :Initial Cause Investigaiton and conclusion - risk assesment result
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24651 EUDAMEDMDR-24651]]
+  BR-VGL-PSR-005.20;
+else (No)
+  :Initial Cause Investigaiton and conclusion - rationale for no assesment
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24651 EUDAMEDMDR-24651]]
+  BR-VGL-PSR-005.20;
+endif
+
+switch (Identificaiotn of similar incidents (At least one required))
+case ( IMDRF code Annex A )
+  :Select IMDRF Annex A code(s) 
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24652 EUDAMEDMDR-24652]];
+case ( IMDRF code Annex C )
+  :Select IMDRF Annex C code(s) 
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24652 EUDAMEDMDR-24652]];
+case ( IMDRF code Annex D )
+  :Select IMDRF Annex D code(s) 
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24652 EUDAMEDMDR-24652]];
+endswitch
+
+:Specify basis for similar incidents
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24653 EUDAMEDMDR-24653]]
+BR-VGL-800;
+if (Basis for similar incidents) then (Other variant)
+  :Justify basis for similar incidents - OIther variants
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24653 EUDAMEDMDR-24653]]
+  BR-VGL-PSR-005.21;
+endif
+
+:Specify basis for number of similar incidents
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24655 EUDAMEDMDR-24655]]
+BR-VGL-802;
+if (Basis for number of similar incidents) then (Other)
+  :Justify basis for number of similar incidents - Other
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24655 EUDAMEDMDR-24655]]
+  BR-VGL-PSR-005.21;
+endif
+
+:Provide number of similar incidents over multipl time periods - *NB Custom Dev*
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24654 EUDAMEDMDR-24654]]
+BR-VGL-PSR-005.15 & BR-VGL-PSR-005.14;
+
+:Provide comment on how similar incidents and number are determined
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24656 EUDAMEDMDR-24656]];
+
+stop
+@enduml
