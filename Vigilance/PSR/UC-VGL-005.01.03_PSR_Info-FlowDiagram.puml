@@ -45,13 +45,12 @@ repeat
   [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22493 EUDAMEDMDR-22493]];
   |MF or AR (Proposer/Confirmer)|
 repeat while (more countries) is (yes)
-->no;
-:Select reporting frequency
+:Select Reporting Frequency
 [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22486 EUDAMEDMDR-22486]]
-BR-VGL-PSR- 005.19; 
+BR-VGL-PSR-005.19;
 if (Reporting Frequency <> 3) then (Yes)
-  :Justify non standard reporting frequency
-  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-23970 EUDAMEDMDR-23970]]; 
+  :Justify non standard reporting frquency
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-23970 EUDAMEDMDR-23970]];
 endif
 stop
 @enduml
