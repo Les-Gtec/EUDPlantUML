@@ -90,10 +90,10 @@ case ( UDI-DI/EUDAMED ID/\nReference/Catalogue number/Name(s)\n and UDI-PI(s)/ S
       [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24630 EUDAMEDMDR-24630]]
       BR-BR-VGL-PSR- 005.18;   
     repeat while (more Production Identifiers) is (yes)
-    ->no;
+    ->no
   else (No)
     :Upload document of Production Identifiers for device
-    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24632 EUDAMEDMDR-24632]];
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24632 EUDAMEDMDR-24632]]
   endif
 endswitch
 repeat
