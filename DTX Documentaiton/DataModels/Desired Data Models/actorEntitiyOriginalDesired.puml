@@ -1,0 +1,124 @@
+@startjson
+{
+    "ulid" : "01EREMMDK87Z0DB1XXACJ6D4S9",
+    "uuid" : "99946bf5-33cb-43ce-827e-2beb2cd05d91",
+    "eudamedIdentifier" : "IE-MF-000000089",   
+    "type" : {
+      "code" : "refdata.actor-type.manufacturer",
+      "srnCode" : "MF",
+      "category" : "ECONOMIC_ENTITY"
+    },
+    "country" : {
+      "name" : "Ireland",
+      "type" : "EU_MEMBER_STATE",
+      "iso2Code" : "IE",
+      "nonEUMemberState" : false
+    },
+      "name" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "HidraMed Solutions Limited",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "abbreviatedName" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "HidraMed Solutions",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "europeanVatNumberApplicable" : true,
+      "europeanVatNumber" : "IE3445548NH",
+      
+      "tradeRegister" : "581597",
+      "eori" : "IE3445548NH",
+      "organizationIdentificationDocuments" : [ ],
+      "authorisedRepresentatives" : null,
+      "competentAuthorityResponsibility" : null,
+      "telephone" : "+353 (0) 85 113 1955 ",
+      "electronicMail" : "Laura@hidramedsolutions.com",
+      "website" : "https://hidrawear.com/",
+      "actorAddress" : {
+        "streetName" : "Business Innovation Centre, NUI Galway",
+        "streetInfoApplicable" : true,
+        "buildingNumber" : null,
+        "complement" : "Galway, Ireland",
+        "postbox" : null,
+        "gps" : null,
+        "cityName" : "Galway",
+        "postalZone" : "H91V207",
+        "country" : {
+          "name" : "Ireland",
+          "type" : "EU_MEMBER_STATE",
+          "iso2Code" : "IE",
+          "nonEUMemberState" : false
+        }
+      },
+      "validatorName" : "Health Products Regulatory Authority, Medical Devices Department",
+      "validatorUuid" : "aa6b2501-87fa-4c5e-a3ff-573acecfe322",
+      "validatorType" : {
+        "code" : "refdata.actor-type.competent-authority",
+        "srnCode" : "CA",
+        "category" : "SUPERVISING_ENTITY"
+      },
+      "validatorSrn" : "IE-CA-001",
+      "validatorAddress" : {
+        "streetName" : "Kevin O’Malley House",
+        "streetInfoApplicable" : true,
+        "buildingNumber" : null,
+        "complement" : "Earlsfort Terrace",
+        "postbox" : null,
+        "gps" : null,
+        "cityName" : "Dublin",
+        "postalZone" : "D02 XP77",
+        "country" : {
+          "name" : "Ireland",
+          "type" : "EU_MEMBER_STATE",
+          "iso2Code" : "IE",
+          "nonEUMemberState" : false
+        }
+      },
+      "validatorEmail" : "devices@hpra.ie",
+      "validatorTelephone" : "+353 1 676 4971",
+      "regulatoryComplianceResponsibles" : [ {
+        "firstName" : "Laura",
+        "familyName" : "Garvey-Trill",
+        "electronicMail" : "Laura@hidramedsolutions.com",
+        "telephone" : "+353 (0) 85 113 1955 ",
+        "position" : null,
+        "geographicalAddress" : {
+          "streetName" : "Business Innovation Centre, NUI Galway",
+          "streetInfoApplicable" : true,
+          "buildingNumber" : null,
+          "complement" : "Galway, Ireland",
+          "postbox" : null,
+          "gps" : null,
+          "cityName" : "Galway",
+          "postalZone" : "H91V207",
+          "country" : {
+            "name" : "Ireland",
+            "type" : "EU_MEMBER_STATE",
+            "iso2Code" : "IE",
+            "nonEUMemberState" : false
+          }
+        }
+      } ],
+      "legislationLinks" : null,
+      "latestSubsidiary" : null,
+      "certificates" : null,
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "versionState" : {
+        "code" : "refdata.eudamed-entity-version-status.registered"
+      },
+      "lastUpdateDate" : "2020-12-04T13:38:38.986",
+      "lastUpdatedByUser" : "n002xhpq"
+    }
+  @endjson

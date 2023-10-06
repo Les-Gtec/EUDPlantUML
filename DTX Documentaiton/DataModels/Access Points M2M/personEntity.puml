@@ -1,0 +1,11 @@
+!include addressAndContactDetails.puml
+
+object PersonType {
++ id [1-1]: uuid
++ firstName [1-1]: String
++ lastName [1-1]: String
++ responsabilities [1-1]: String
+}
+
+PersonType }--|| PartyType
+

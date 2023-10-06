@@ -1,0 +1,61 @@
+@startuml
+package vigilance {
+    object psr_dossier {
+        * id = UUID
+        * eudamed_id = BR-VGL-010
+        * psr_status = BR-VGL-PSR- 005.04
+        * cca_country = BR-VGL-PSR-005 .03 - (R)
+        * cca_id = BR-VGL-PSR -005.09 - SRN
+        * mf_contact = UUID
+        * psr_contact_selection = BR-VGLPSR-005.06 - String
+        psr_other_contact = UUID
+        ar =  BR-VGL-PSR- 005.08 - SRN
+        ar_contact = UUID
+        
+
+    }
+    object step0{
+          id = UUID
+          mf = SRN   
+        }
+    object vig_contact {
+        id: UUID
+        * first_name: String
+        * last_name: String
+        * e_mail: string
+        * phone: string
+    }
+
+}
+
+
+package Actor {
+    object CA {
+        id = UUID
+        srn = SRN
+    }
+    object MF {
+        id = UUID
+        srn = SRN
+    }
+    object AR {
+        id = UUID
+        srn = SRN
+    }
+}
+
+package udi {
+    object device {
+
+    }
+
+' Object Link Definitions below here
+psr_dossier::id -- step0::id
+psr_dossier::cca_id -- CA::srn
+psr_dossier::ar -- AR::srn
+psr_dossier::mf_contact -- vig_contact::id
+psr_dossier::ar_contact -- vig_contact::id
+psr_dossier::psr_other_contact -- vig_contact::id
+step0::mf -- MF::srn
+
+@enduml

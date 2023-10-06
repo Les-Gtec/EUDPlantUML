@@ -1,0 +1,14 @@
+note "Access Point and Access Point Link entity diagrams" as N1
+
+
+!include accessPointEntity.puml
+!include accessPointLinkEntity.puml
+!include actorEntitySimplified.puml
+!include organisationEntitySimplified.puml
+
+ActorType --|> AccessPointLink
+ActorType --|> PersonType
+ActorType --|> OrganisationType
+AccessPoint --|> AccessPointLink
+AccessPoint --|> OrganisationType
+

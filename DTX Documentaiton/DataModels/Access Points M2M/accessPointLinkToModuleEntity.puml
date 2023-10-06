@@ -1,0 +1,21 @@
+@startuml
+!include serviceEntity.puml
+
+object AccessPointLinkToModuleType {
++ id[1-1]:uuid
++ moduleCode [1-1]: string (ACT/UDI/CERT/MSU/VIG/CIPS)
++ accessPoinLinkId [1-1]: AccessPointLinkType:id
++ serviceId [1-1]: serviceType:id
++ securityKey [1-1]: String
++ status [1-1]: String
+--
+**Internal**
+--
++ createdDate [1-1]: DateTime
++ lastUpdateDate [1-1]: DateTime
++ lastUpdatedBy [1-1]: String
+}
+
+AccessPointLinkToModuleType }o-- ServiceType 
+
+@enduml

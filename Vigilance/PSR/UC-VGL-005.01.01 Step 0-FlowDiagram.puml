@@ -1,0 +1,41 @@
+@startuml
+title UC-VGL-005.01.01 - Step 0 Info
+|MF or AR (Proposer/Confirmer)|
+|MF (Proposer/Confirmer)|
+|System|
+|AR (Proposer/Confirmer)|
+|MF or AR (Proposer/Confirmer)|
+start
+:Reach "Create New Vigilance Form" Page
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22445 EUDAMEDMDR-22445]]
+BR-VGL-016;
+:Select "PSR" Report Template
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22445 EUDAMEDMDR-22445]]
+BR-VGL-016;
+|System|
+if (Current Actor) then (MF)
+    |MF (Proposer/Confirmer)|
+    :Select own MF from dropdown
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22447 EUDAMEDMDR-22447]]
+    BR-VGL-PSR- 005.01;
+else (AR)
+    |AR (Proposer/Confirmer)|
+    :Select relevant MF from dropdown
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22460 EUDAMEDMDR-22460]];
+endif
+|MF or AR (Proposer/Confirmer)|
+repeat
+    :Insert MF Ref No.
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22450 EUDAMEDMDR-22450]]
+    BR-VGL-PSR- 005.02;
+    :Select Create form
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22458 EUDAMEDMDR-22458]]
+    BR-VGL-10;
+backward: Notify Mrf Ref Not Unique;
+repeat while (Mfr Ref unique) is (no)
+|System|
+:Generate EUDAMED ID;
+:Create Blank dossier from PSR template;
+:Set New Dossier State to Draft;
+stop
+@enduml

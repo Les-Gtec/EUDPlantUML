@@ -1,0 +1,9 @@
+object OrganisationType {
++ id [1-1]: uuid
++ names [1-1]: String
++ nationalTraderRegistry [0-1]: String
++ shortNames [0-1]: String
+--
+This is a simplified model showing only relevant fields. 
+Please refer to the full Entity diagram for details
+}

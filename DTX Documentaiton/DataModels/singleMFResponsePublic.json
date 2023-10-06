@@ -1,0 +1,125 @@
+{
+    "importers" : null,
+    "nonEuManufacturers" : null,
+    "actorDataPublicView" : {
+      "ulid" : "01EWFSZNG9777GB1FZTTBX8N77",
+      "uuid" : "9a87acd9-638f-4b23-bfef-baa8f317b389",
+      "type" : {
+        "code" : "refdata.actor-type.manufacturer",
+        "srnCode" : "MF",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "country" : {
+        "name" : "Ireland",
+        "type" : "EU_MEMBER_STATE",
+        "iso2Code" : "IE",
+        "nonEUMemberState" : false
+      },
+      "name" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Shire Pharmaceuticals Ireland Limited",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "abbreviatedName" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "SPIL",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "europeanVatNumberApplicable" : true,
+      "europeanVatNumber" : "IE6369143K",
+      "eudamedIdentifier" : "IE-MF-000000798",
+      "tradeRegister" : "349143",
+      "eori" : "IE6369143K",
+      "organizationIdentificationDocuments" : [ ],
+      "authorisedRepresentatives" : null,
+      "competentAuthorityResponsibility" : null,
+      "telephone" : "+353 1 609 6000",
+      "electronicMail" : "DQA@takeda.com",
+      "website" : "www.takeda.com",
+      "actorAddress" : {
+        "streetName" : "Baggot Street Lower",
+        "streetInfoApplicable" : true,
+        "buildingNumber" : "50-58",
+        "complement" : "Block 2 & 3 Miesian Plaza",
+        "postbox" : null,
+        "gps" : null,
+        "cityName" : "Dublin 2",
+        "postalZone" : "D02 Y754",
+        "country" : {
+          "name" : "Ireland",
+          "type" : "EU_MEMBER_STATE",
+          "iso2Code" : "IE",
+          "nonEUMemberState" : false
+        }
+      },
+      "validatorName" : "Health Products Regulatory Authority, Medical Devices Department",
+      "validatorUuid" : "aa6b2501-87fa-4c5e-a3ff-573acecfe322",
+      "validatorType" : {
+        "code" : "refdata.actor-type.competent-authority",
+        "srnCode" : "CA",
+        "category" : "SUPERVISING_ENTITY"
+      },
+      "validatorSrn" : "IE-CA-001",
+      "validatorAddress" : {
+        "streetName" : "Kevin O’Malley House",
+        "streetInfoApplicable" : true,
+        "buildingNumber" : null,
+        "complement" : "Earlsfort Terrace",
+        "postbox" : null,
+        "gps" : null,
+        "cityName" : "Dublin",
+        "postalZone" : "D02 XP77",
+        "country" : {
+          "name" : "Ireland",
+          "type" : "EU_MEMBER_STATE",
+          "iso2Code" : "IE",
+          "nonEUMemberState" : false
+        }
+      },
+      "validatorEmail" : "devices@hpra.ie",
+      "validatorTelephone" : "+353 1 676 4971",
+      "regulatoryComplianceResponsibles" : [ {
+        "firstName" : "Tara",
+        "familyName" : "Cox",
+        "electronicMail" : "tara.cox@takeda.com",
+        "telephone" : "+353 (87) 6447509",
+        "position" : null,
+        "geographicalAddress" : {
+          "streetName" : "Baggot Street Lower",
+          "streetInfoApplicable" : true,
+          "buildingNumber" : "50-58",
+          "complement" : "Block 2 & 3 Miesian Plaza",
+          "postbox" : null,
+          "gps" : null,
+          "cityName" : "Dublin 2",
+          "postalZone" : "D02 Y754",
+          "country" : {
+            "name" : "Ireland",
+            "type" : "EU_MEMBER_STATE",
+            "iso2Code" : "IE",
+            "nonEUMemberState" : false
+          }
+        }
+      } ],
+      "legislationLinks" : null,
+      "latestSubsidiary" : null,
+      "certificates" : null,
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "versionState" : {
+        "code" : "refdata.eudamed-entity-version-status.registered"
+      },
+      "lastUpdateDate" : "2021-01-20T13:12:35.955",
+      "lastUpdatedByUser" : "n002xhpq"
+    }
+  }

@@ -1,0 +1,37 @@
+object PartyType {
++ id [1-1]: uuid
++ parent [1-1]: id
++ geographicAddress [0-1]: id
++ contactsDetails [0-1]: id
+}
+
+object GeographicAddressType {
++ id [1-1]: uuid
++ addressComplement [0-1]: String
++ city [0-1]: String
++ country [1-1]: String (ISO Code)
++ GPSCoordinates [0-1]: GPSType
++ POBox [0-1]: String
++ postCode [1-1]: String
++ street [0-1]: String
++ streetNum [0-1]: String
+}
+
+object ElectronicContactsType {
++ id [1-1]:uuid
++ parent [1-1]: id
++ contactDetail [1-+]: id
+}
+
+object ElectronicContactType {
++ id [1-1]:uuid
++ parent [1-1]: id
++ eMail [1-1]: String
++ phone [0-1]: String
++ public [1-1]: Boolean
++ website [0-1]: String
+}
+
+PartyType }|--o| GeographicAddressType
+PartyType }|--o| ElectronicContactsType
+ElectronicContactsType }|-- ElectronicContactType

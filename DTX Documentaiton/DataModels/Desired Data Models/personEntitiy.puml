@@ -1,0 +1,6 @@
+@startjson
+{
+    "FirstName":"John",
+    "LastName":"Smith"
+}
+@endjson

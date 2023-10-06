@@ -1,0 +1,57 @@
+@startuml
+title UC-VGL-005.01.03 - PSR Info
+|MF or AR (Proposer/Confirmer)|
+|System|
+|MF or AR (Proposer/Confirmer)|
+start
+:Specify PSR Type
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22489 EUDAMEDMDR-22489]]
+BR-?;
+switch (PSR Type (multi Select)
+case ( FSCA )
+  :confirm if the bases of the PSR is linked to
+   incidents described in FSCA(s) 
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-23944 EUDAMEDMDR-23944]];
+  if (FSCA in Eudamed) then (Yes) 
+    :provide FSCA reference (Repeating)
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-23945 EUDAMEDMDR-23945]];
+  else (No)
+    :provide MFR FSCA reference string 
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-23972 EUDAMEDMDR-23972]];
+  endif
+case ( DSVG ) 
+  label sp_lab0
+  :provide relevant reference name 
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22489 EUDAMEDMDR-22489]];
+case ( Common and well documented incidents and/or Root cause )
+
+endswitch
+:Specify IMDRF code Annex A
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-23946 EUDAMEDMDR-23946]]
+BR-CIPS-164;
+:Specify IMDRF code Annex C
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-23946 EUDAMEDMDR-23946]]
+BR-CIPS-166;
+:Specify IMDRF code Annex D
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-23946 EUDAMEDMDR-23946]]
+BR-CIPS-167;
+repeat
+  :Select participating country
+  and corresponding CA
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22492 EUDAMEDMDR-23946]]
+  BR-VGL-PSR -005-03 & BR-VGL-PSR -005-04; 
+  |System|
+  :Retrieve and display CA data
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22493 EUDAMEDMDR-22493]];
+  |MF or AR (Proposer/Confirmer)|
+repeat while (more countries) is (yes)
+->no;
+:Select reporting frequency
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22486 EUDAMEDMDR-22486]]
+BR-VGL-PSR- 005.19; 
+if (Reporting Frequency <> 3) then (Yes)
+  :Justify non standard reporting frequency
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-23970 EUDAMEDMDR-23970]]; 
+endif
+stop
+@enduml

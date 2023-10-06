@@ -1,0 +1,1208 @@
+{
+    "content" : [ {
+      "uuid" : "6a96cd7d-da63-4f15-98e1-1b152c7f9bc1",
+      "ulid" : "01ERER2ZZ038E5Y1TFJQRQFQ78",
+      "name" : "Abbott Rapid Dx International Limited",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Abbott Rapid Dx International Limited",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2020-12-04T13:43:53.901",
+      "eudamedIdentifier" : "IE-AR-000000091",
+      "electronicMail" : "ardx.AR@abbott.com",
+      "telephone" : null,
+      "geographicalAddress" : "Parkmore East Business Park, H91 VK7E Galway",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "H91 VK7E",
+      "cityName" : "Galway",
+      "abbreviatedName" : "RDIL",
+      "abbreviatedNames" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "RDIL",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "latestVersion" : true,
+      "versionNumber" : 3,
+      "associatedToUser" : false,
+      "registrationUlid" : "01ERER2ZZCVSMK16W12B2EPFMM",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000000091"
+    }, {
+      "uuid" : "564ff9a1-d0b4-4aa6-80d9-3e43090e25dc",
+      "ulid" : "01ERFM1VJW0HP79SAM1FYWG7D1",
+      "name" : "Stryker European Operations Limited",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Stryker European Operations Limited",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2020-12-04T13:45:39.286",
+      "eudamedIdentifier" : "IE-AR-000000092",
+      "electronicMail" : "ear.ie@stryker.com",
+      "telephone" : "+353 (21) 206 3500",
+      "geographicalAddress" : "Anngrove, T45 HX08 Carrigtwohill; Co. Cork",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "T45 HX08",
+      "cityName" : "Carrigtwohill; Co. Cork",
+      "abbreviatedName" : null,
+      "abbreviatedNames" : null,
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "associatedToUser" : false,
+      "registrationUlid" : "01ERFM1VK9DW0JNQXV6WCD1AE7",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000000092"
+    }, {
+      "uuid" : "bed9b6b6-5bf3-4e0f-88cd-35caa8b3260f",
+      "ulid" : "01ERH7JQXZQAM2VCE7NRK2F5GX",
+      "name" : "Arazy Group (Ireland) Ltd.",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Arazy Group (Ireland) Ltd.",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2020-12-04T13:50:50.52",
+      "eudamedIdentifier" : "IE-AR-000000093",
+      "electronicMail" : "Ireland@arazygroup.com",
+      "telephone" : "+353 0217319558",
+      "geographicalAddress" : "9 Exchange Place, I.F.S.C.,, 9  D01 X8h2 Dublin",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : " D01 X8h2",
+      "cityName" : "Dublin",
+      "abbreviatedName" : null,
+      "abbreviatedNames" : null,
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "associatedToUser" : false,
+      "registrationUlid" : "01ERH7JQYFM03874SN9QQ5GGJT",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000000093"
+    }, {
+      "uuid" : "5d1d4eb5-3746-4996-af15-eb55ec46d840",
+      "ulid" : "01ERDEEGW1HBGRM0HSY7XDK52P",
+      "name" : "Bausch & Lomb Incorporated",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Bausch & Lomb Incorporated",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2020-12-04T13:52:12.071",
+      "eudamedIdentifier" : "IE-AR-000000094",
+      "electronicMail" : "EUAR-PRRC_Ireland@bausch.com",
+      "telephone" : "+353 51 355001",
+      "geographicalAddress" : "Cork Road Industrial Estate, X91 V383 Waterford",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "X91 V383",
+      "cityName" : "Waterford",
+      "abbreviatedName" : null,
+      "abbreviatedNames" : null,
+      "latestVersion" : true,
+      "versionNumber" : 4,
+      "associatedToUser" : false,
+      "registrationUlid" : "01ERDEEGWR2K4CXYG242GDD9EC",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000000094"
+    }, {
+      "uuid" : "7b225032-744a-4e74-b019-b5edd67e7ae5",
+      "ulid" : "01ERFNBSPE75ZWYKQ62XGEHMAN",
+      "name" : "Atlantico Systems, Ltd.",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Atlantico Systems, Ltd.",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2020-12-11T12:50:58.677",
+      "eudamedIdentifier" : "IE-AR-000000208",
+      "electronicMail" : "info@AtlanticoSystems.com",
+      "telephone" : "+35391443609",
+      "geographicalAddress" : "34 Oldfield, H91 D8CX Galway",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "H91 D8CX",
+      "cityName" : "Galway",
+      "abbreviatedName" : "Atlantico Systems",
+      "abbreviatedNames" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Atlantico Systems",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "associatedToUser" : false,
+      "registrationUlid" : "01ERFNBSPVA0RE1A9KZTSQD9KT",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000000208"
+    }, {
+      "uuid" : "08fb86a8-603d-411b-91ec-6b52c569678c",
+      "ulid" : "01EVEGR4HD3MGEQZMVKRW0MYAG",
+      "name" : "Acorn Regulatory Consultancy Services Ltd",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Acorn Regulatory Consultancy Services Ltd",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-01-11T13:16:22.765",
+      "eudamedIdentifier" : "IE-AR-000000592",
+      "electronicMail" : "prrc@acornregulatory.com",
+      "telephone" : "+ 353 52 6176706",
+      "geographicalAddress" : "Knockmorris, E21 R766 Co. Tipperary",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "E21 R766",
+      "cityName" : "Co. Tipperary",
+      "abbreviatedName" : null,
+      "abbreviatedNames" : null,
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "associatedToUser" : false,
+      "registrationUlid" : "01EVEGR4HS7C30RMTYC7R2HZN2",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000000592"
+    }, {
+      "uuid" : "0c2b8dc4-55b4-4805-b79b-3d0cd121fc75",
+      "ulid" : "01ERHNF6S6B625B12ZDQM9CWX9",
+      "name" : "Shire Pharmaceuticals Ireland Limited",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Shire Pharmaceuticals Ireland Limited",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-01-11T13:31:06.848",
+      "eudamedIdentifier" : "IE-AR-000000593",
+      "electronicMail" : "DQA@takeda.com",
+      "telephone" : "+353 1 609 6000",
+      "geographicalAddress" : "Baggot Street Lower, 50-58 D02 Y754 Dublin 2",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "D02 Y754",
+      "cityName" : "Dublin 2",
+      "abbreviatedName" : "SPIL",
+      "abbreviatedNames" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "SPIL",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "associatedToUser" : false,
+      "registrationUlid" : "01ERHNF6SWBNRRBK65V2QZWBYJ",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000000593"
+    }, {
+      "uuid" : "ef47a2db-d01e-4cee-9742-8a730f6146a3",
+      "ulid" : "01ESGZRW19X1WKYXWHCHYTP2MH",
+      "name" : "Allergan Pharmaceuticals International Limited",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Allergan Pharmaceuticals International Limited",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-01-13T12:42:26.973",
+      "eudamedIdentifier" : "IE-AR-000000650",
+      "electronicMail" : "TPCQCompliance@allergan.com",
+      "telephone" : "+353 1 435 7700",
+      "geographicalAddress" : "Clonshaugh Business & Technology Park, D17E400 Dublin",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "D17E400",
+      "cityName" : "Dublin",
+      "abbreviatedName" : "APIL",
+      "abbreviatedNames" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "APIL",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "associatedToUser" : false,
+      "registrationUlid" : "01ESGZRW24W777TZRBDWTTW0EZ",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000000650"
+    }, {
+      "uuid" : "46530516-c796-42e4-8257-4a4e222af219",
+      "ulid" : "01ES0ZXCBVBTVB7R2DRQPWZVBM",
+      "name" : "Welch Allyn Limited",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Welch Allyn Limited",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-01-19T16:27:30.91",
+      "eudamedIdentifier" : "IE-AR-000000768",
+      "electronicMail" : "marie.mcgovern@hillrom.com",
+      "telephone" : "+353469067700",
+      "geographicalAddress" : "IDA Business Park, Dublin Road, C15 AW22 Navan, County Meath",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "C15 AW22",
+      "cityName" : "Navan, County Meath",
+      "abbreviatedName" : null,
+      "abbreviatedNames" : null,
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "associatedToUser" : false,
+      "registrationUlid" : "01ES0ZXCC87E5NNB3RE3H46BFS",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000000768"
+    }, {
+      "uuid" : "1a1574c1-73f7-489d-9cc0-79fe83db34e2",
+      "ulid" : "01EWAQ2R6403FP4E4K47T94Y3N",
+      "name" : "Goodman Medical Ireland Ltd",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Goodman Medical Ireland Ltd",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-01-19T16:47:41.404",
+      "eudamedIdentifier" : "IE-AR-000000771",
+      "electronicMail" : "dmackie@goodmanmedical.ie",
+      "telephone" : "+353 91 783335",
+      "geographicalAddress" : "Mervue Business park, H91 H9CK Galway",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "H91 H9CK",
+      "cityName" : "Galway",
+      "abbreviatedName" : null,
+      "abbreviatedNames" : null,
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "associatedToUser" : false,
+      "registrationUlid" : "01EWAQ2R6G6WS90X92MQP1D99B",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000000771"
+    }, {
+      "uuid" : "27aacafb-fc22-4880-8b90-9a7052bc97f9",
+      "ulid" : "01ERZ5J1ZWTN7WRF0H1WRP3TKG",
+      "name" : "Natus Manufacturing Ltd",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Natus Manufacturing Ltd",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-01-22T12:40:16.394",
+      "eudamedIdentifier" : "IE-AR-000000884",
+      "electronicMail" : "martha.kennedy@natus.com",
+      "telephone" : "+353879895568",
+      "geographicalAddress" : "IDA Business Park , H91PD92 Galway",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "H91PD92",
+      "cityName" : "Galway",
+      "abbreviatedName" : null,
+      "abbreviatedNames" : null,
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "associatedToUser" : false,
+      "registrationUlid" : "01ERZ5J2084GQ0GAQ5DG7PMWBZ",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000000884"
+    }, {
+      "uuid" : "b17195bb-6e33-4c06-8af5-f82f2fc2c5d4",
+      "ulid" : "01EVYE0H4CPY2C27RV4DXXPTQF",
+      "name" : "Beckman Coulter Ireland Inc.",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Beckman Coulter Ireland Inc.",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-01-22T12:44:16.715",
+      "eudamedIdentifier" : "IE-AR-000000886",
+      "electronicMail" : "ra.clare@beckman.com",
+      "telephone" : "+353 65 6831100",
+      "geographicalAddress" : "Lismeehan, V94PP63 Clare",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "V94PP63",
+      "cityName" : "Clare",
+      "abbreviatedName" : null,
+      "abbreviatedNames" : null,
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "associatedToUser" : false,
+      "registrationUlid" : "01EVYE0H4ST2Q4AQS1Y2995M2S",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000000886"
+    }, {
+      "uuid" : "34d6ad6d-55ff-47e7-aa37-88f9063489e8",
+      "ulid" : "01ETMBSH32K08ME92VF2E3XXM4",
+      "name" : "NEO HEALTHIES LIMITED",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "NEO HEALTHIES LIMITED",
+          "allLanguagesApplicable" : false
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-01-25T13:09:09.51",
+      "eudamedIdentifier" : "IE-AR-000000905",
+      "electronicMail" : "info@neohealthies.com",
+      "telephone" : "+353 (83) 389 1511",
+      "geographicalAddress" : "109 THE CAPEL BUILDING, MARYS ABBEY, 109 THE CAPEL BUILDING, MARYS ABBEY D07EC93 DUBLIN 7",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "D07EC93",
+      "cityName" : "DUBLIN 7",
+      "abbreviatedName" : "NEO HEALTHIES",
+      "abbreviatedNames" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "NEO HEALTHIES",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "latestVersion" : true,
+      "versionNumber" : 2,
+      "associatedToUser" : false,
+      "registrationUlid" : "01ETMBSH3EBYPPTNWW4W0A7Y03",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000000905"
+    }, {
+      "uuid" : "6d6b5a8d-a008-4b6d-9770-35a5bb01bef0",
+      "ulid" : "01EWJAP203SSMY07SNVKPE18DR",
+      "name" : "COOK MEDICAL EUROPE LIMITED",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "COOK MEDICAL EUROPE LIMITED",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-01-25T13:12:14.477",
+      "eudamedIdentifier" : "IE-AR-000000907",
+      "electronicMail" : "EUauthorisedrep@cookmedical.com",
+      "telephone" : "+353 61 334440",
+      "geographicalAddress" : "O'HALLORAN ROAD, V94N8X2 LIMERICK",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "V94N8X2",
+      "cityName" : "LIMERICK",
+      "abbreviatedName" : "CMEU LTD",
+      "abbreviatedNames" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "CMEU LTD",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "latestVersion" : true,
+      "versionNumber" : 3,
+      "associatedToUser" : false,
+      "registrationUlid" : "01EWJAP20PGX3W6AT09TXJBA3X",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000000907"
+    }, {
+      "uuid" : "d63898c4-b2a3-48c8-b031-42876300c6bb",
+      "ulid" : "01EWX1TKPKMMNCDKBY58CCV3C4",
+      "name" : "Merit Medical Ireland Ltd",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Merit Medical Ireland Ltd",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-01-29T12:21:56.602",
+      "eudamedIdentifier" : "IE-AR-000001011",
+      "electronicMail" : "jenniferw@merit.com",
+      "telephone" : "801-253-1600",
+      "geographicalAddress" : "Parkmore Business Park West, H91 E2A3 Galway",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "H91 E2A3",
+      "cityName" : "Galway",
+      "abbreviatedName" : "Merit Medical",
+      "abbreviatedNames" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Merit Medical",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "associatedToUser" : false,
+      "registrationUlid" : "01EWX1TKPZW4VC7BD2MWY08C48",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000001011"
+    }, {
+      "uuid" : "5e5c882e-8802-4cf8-bb0e-c516d19f6c31",
+      "ulid" : "01EWNNHYAP1FWX76AA5FT4TH3A",
+      "name" : "Clonallon Laboratories (Ireland) Ltd",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Clonallon Laboratories (Ireland) Ltd",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-02-01T11:24:29.376",
+      "eudamedIdentifier" : "IE-AR-000001028",
+      "electronicMail" : "dermot@clonallon.com",
+      "telephone" : "+353 (0) 42 96 11202 ",
+      "geographicalAddress" : "Blackthorn Business Park, A91 EO3R Dundalk",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "A91 EO3R",
+      "cityName" : "Dundalk",
+      "abbreviatedName" : "CLNIRE",
+      "abbreviatedNames" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "CLNIRE",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "associatedToUser" : false,
+      "registrationUlid" : "01EWNNHYB3G9FCPE4MPBAXJDQM",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000001028"
+    }, {
+      "uuid" : "27eecfa1-31ef-4e28-ad8e-4a886fafba31",
+      "ulid" : "01EX4JD0PNDJTYS7XXT43QFBTQ",
+      "name" : "MDML Intl Limited",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "MDML Intl Limited",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-02-03T12:49:04.457",
+      "eudamedIdentifier" : "IE-AR-000001156",
+      "electronicMail" : "nl1@mdml.net",
+      "telephone" : "+353(0)1 4434307",
+      "geographicalAddress" : "McCurtain Hill, 10 P85K230 Clonakilty",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "P85K230",
+      "cityName" : "Clonakilty",
+      "abbreviatedName" : null,
+      "abbreviatedNames" : null,
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "associatedToUser" : false,
+      "registrationUlid" : "01EX4JD0Q70W7V84TNRY43SG79",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000001156"
+    }, {
+      "uuid" : "38d15282-e90b-4f05-befe-3939c24484d0",
+      "ulid" : "01EXHHKV95E16GSB6RXXZ9YWFE",
+      "name" : "Brandshapers Ltd",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Brandshapers Ltd",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-02-03T13:12:46.319",
+      "eudamedIdentifier" : "IE-AR-000001170",
+      "electronicMail" : "matt@qp-services.com",
+      "telephone" : "+ 353 53 91 79007",
+      "geographicalAddress" : "Ballytramon Business Park, Y35 Y19A Castlebridge, Co Wexford",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "Y35 Y19A",
+      "cityName" : "Castlebridge, Co Wexford",
+      "abbreviatedName" : null,
+      "abbreviatedNames" : null,
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "associatedToUser" : false,
+      "registrationUlid" : "01EXHHKV9JZC68F6YPAGP2JFH8",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000001170"
+    }, {
+      "uuid" : "b20261c4-1a21-4078-8b8f-039a90077ae0",
+      "ulid" : "01EVCAEKEDK134ZTEQJ1S85E37",
+      "name" : "Synopsys International Limited",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Synopsys International Limited",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-02-19T15:52:44.684",
+      "eudamedIdentifier" : "IE-AR-000001516",
+      "electronicMail" : "simpleware-ce@synopsys.com",
+      "telephone" : "+4401392428750",
+      "geographicalAddress" : "Blanchardstown Corp Park, Block 1 D15 AKK1 Dublin",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "D15 AKK1",
+      "cityName" : "Dublin",
+      "abbreviatedName" : null,
+      "abbreviatedNames" : null,
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "associatedToUser" : false,
+      "registrationUlid" : "01EVCAEKES3F9NR13RWNQXFQN3",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000001516"
+    }, {
+      "uuid" : "a9471370-ac87-4fa2-b058-38836ab2302c",
+      "ulid" : "01EZCAGBM3R5CX4725CF9CB7K9",
+      "name" : "Care Surgical Supplies Limited",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Care Surgical Supplies Limited",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-03-01T13:26:36.861",
+      "eudamedIdentifier" : "IE-AR-000001724",
+      "electronicMail" : "info@ecrep-caresurgical.com",
+      "telephone" : "+35312460099",
+      "geographicalAddress" : "Lower Main Street, 12a, Office 2 K78 X5P8 Co. Dublin",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "K78 X5P8",
+      "cityName" : "Co. Dublin",
+      "abbreviatedName" : "CSSL",
+      "abbreviatedNames" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "CSSL",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "latestVersion" : true,
+      "versionNumber" : 3,
+      "associatedToUser" : false,
+      "registrationUlid" : "01EZCAGBMQB7TANH1WGVH0QDTY",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000001724"
+    }, {
+      "uuid" : "a28953ad-23ee-4544-b5be-4d4fc3421afb",
+      "ulid" : "01ES67FBPH520NABHVMPAQHCEZ",
+      "name" : "Biopower Technologies (Europe) Ltd",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Biopower Technologies (Europe) Ltd",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-03-05T12:48:47.058",
+      "eudamedIdentifier" : "IE-AR-000001880",
+      "electronicMail" : "metcap26@gmail.com",
+      "telephone" : "+353 89 988 2873",
+      "geographicalAddress" : "Coliemore Road, Coliemore House A96 A8D5 Co. Dublin",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "A96 A8D5",
+      "cityName" : "Co. Dublin",
+      "abbreviatedName" : null,
+      "abbreviatedNames" : null,
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "associatedToUser" : false,
+      "registrationUlid" : "01ES67FBQ3SQCAVBEB5H58QXP5",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000001880"
+    }, {
+      "uuid" : "c9aeec1f-1adf-424d-8a29-4edf614d266f",
+      "ulid" : "01EZSFEMV4SMRVNRJQAZHFM980",
+      "name" : "Kemdent Limited",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Kemdent Limited",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-03-08T13:12:23.155",
+      "eudamedIdentifier" : "IE-AR-000001930",
+      "electronicMail" : "sales@kemdent.ie",
+      "telephone" : "+353 21 4774008",
+      "geographicalAddress" : "Emmet Place, Kinsale Health & Wellbeing Centre P17 H589 Kinsale, County Cork",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "P17 H589",
+      "cityName" : "Kinsale, County Cork",
+      "abbreviatedName" : null,
+      "abbreviatedNames" : null,
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "associatedToUser" : false,
+      "registrationUlid" : "01EZSFEMVG75ZF1BX99HPMN328",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000001930"
+    }, {
+      "uuid" : "08946181-6736-48c9-85cb-100500de21c5",
+      "ulid" : "01EZWCF6DW39S9D9NPHCP9PC9E",
+      "name" : "AFB (Europe) Ltd",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "AFB (Europe) Ltd",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-03-08T13:20:00.213",
+      "eudamedIdentifier" : "IE-AR-000001932",
+      "electronicMail" : "Europe@afb.co.uk",
+      "telephone" : "+353 (0)1 963 0334  ",
+      "geographicalAddress" : "Balheary Road, D.O. Centre K67 E5AO Swords, Co. Dublin",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "K67 E5AO",
+      "cityName" : "Swords, Co. Dublin",
+      "abbreviatedName" : "AFB",
+      "abbreviatedNames" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "AFB",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "associatedToUser" : false,
+      "registrationUlid" : "01EZWCF6E74BRPNQ3JC0F2XAPK",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000001932"
+    }, {
+      "uuid" : "ffdb2e65-7d26-47ff-bd04-c236185c5d1f",
+      "ulid" : "01EZPRXRAAP84WX1HY85S4BX28",
+      "name" : "Cardinal Health Ireland Manufacturing Limited",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Cardinal Health Ireland Manufacturing Limited",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-03-10T12:51:42.353",
+      "eudamedIdentifier" : "IE-AR-000001988",
+      "electronicMail" : "G-ECREP@cardinalhealth.com",
+      "telephone" : "+353 57 93 272 69",
+      "geographicalAddress" : "Tullamore Business and Technology Park, R35 H9O3 Tullamore",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "R35 H9O3",
+      "cityName" : "Tullamore",
+      "abbreviatedName" : "CAH Ireland ltd",
+      "abbreviatedNames" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "CAH Ireland ltd",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "latestVersion" : true,
+      "versionNumber" : 2,
+      "associatedToUser" : false,
+      "registrationUlid" : "01EZPRXRARQDFP9XR0JZTYD461",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000001988"
+    }, {
+      "uuid" : "4fff954a-b92a-438c-ad44-ddb00490b177",
+      "ulid" : "01EZQVHCZ0CVW0QRY7HEJZ07HF",
+      "name" : "Inovyne (Europe) Limited",
+      "names" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Inovyne (Europe) Limited",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "actorType" : {
+        "code" : "refdata.actor-type.authorised-representative",
+        "srnCode" : "AR",
+        "category" : "ECONOMIC_ENTITY"
+      },
+      "roleName" : "Authorised Representative",
+      "countryIso2Code" : "IE",
+      "countryName" : "Ireland",
+      "countryType" : "EU_MEMBER_STATE",
+      "dateOfRegistration" : "2021-03-12T13:44:25.374",
+      "eudamedIdentifier" : "IE-AR-000002068",
+      "electronicMail" : "info@inovyne.com",
+      "telephone" : "+353 21 2355494",
+      "geographicalAddress" : "Euro Innovation Business Park, 6 T45KF64 Cork",
+      "buildingNumber" : null,
+      "streetName" : null,
+      "postbox" : null,
+      "addressComplement" : null,
+      "postalZone" : "T45KF64",
+      "cityName" : "Cork",
+      "abbreviatedName" : "Inovyne",
+      "abbreviatedNames" : {
+        "texts" : [ {
+          "language" : {
+            "isoCode" : "en",
+            "name" : "English"
+          },
+          "text" : "Inovyne",
+          "allLanguagesApplicable" : null
+        } ]
+      },
+      "latestVersion" : true,
+      "versionNumber" : 1,
+      "associatedToUser" : false,
+      "registrationUlid" : "01EZQVHCZMBJC8C179PG1YTZXP",
+      "legislationLinks" : null,
+      "selectable" : true,
+      "srn" : "IE-AR-000002068"
+    } ],
+    "last" : false,
+    "totalElements" : 400,
+    "totalPages" : 16,
+    "size" : 25,
+    "number" : 0,
+    "sort" : [ {
+      "direction" : "ASC",
+      "property" : "srn",
+      "ignoreCase" : false,
+      "nullHandling" : "NATIVE",
+      "ascending" : true,
+      "descending" : false
+    }, {
+      "direction" : "DESC",
+      "property" : "versionNumber",
+      "ignoreCase" : false,
+      "nullHandling" : "NATIVE",
+      "ascending" : false,
+      "descending" : true
+    } ],
+    "first" : true,
+    "numberOfElements" : 25
+  }

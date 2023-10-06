@@ -1,0 +1,13 @@
+@startuml
+|CA (Proposer/Confirmer)|
+start
+:Reach "Create New Vigilance Form" Page;
+:Select "NCAR" Report Template;
+:Select Own CA organisation;
+:Select "Create Form" Button;
+|System|
+:Generate EUDAMED ID;
+:Create Blank dossier from NCAR template;
+:Set New Dossier State to Draft;
+stop
+@enduml

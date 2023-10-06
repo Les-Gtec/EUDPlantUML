@@ -1,0 +1,30 @@
+note "Access Point Link State Diagram" as N1
+
+state "Draft" as Draft
+state "Submitted" as BusinessValidation
+state "Connectivity Under Validation" as ConnectivityValidation
+state "Active" as Active
+state "Rejected" as Rejected
+state "Disabled" as Disabled
+state "Terminated" as Terminated
+
+[*] --> Draft
+Draft --> BusinessValidation
+BusinessValidation --> Rejected
+Rejected --> [*]
+BusinessValidation --> Active
+BusinessValidation --> ConnectivityValidation
+ConnectivityValidation --> Active
+Active --> Disabled
+Disabled --> Active
+Disabled --> Terminated
+Active --> Terminated
+
+
+Draft: Access point Link information with Actor not submitted
+BusinessValidation: Access Point Link Request being reviewed
+ConnectivityValidation: If this link is part of a new Access Point request\nthe AP needs to be validated before\nthe AP Link can be made active
+Active: Active and working
+Disabled: Access Point Link has been suspended by the EC
+Terminated: Access point Link no longer being used
+Rejected: Access point Link Request Rejected

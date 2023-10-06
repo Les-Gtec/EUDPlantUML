@@ -1,0 +1,23 @@
+@startuml
+
+object AccessPoint {
++ id [1-1]: uuid
++ partyId [1-1]: String
++ organisationId [1-1]: OrganisationType:id
++ country [1-1]: String - ISO Code
++ city [1-1]: String
++ is3rdParty [1-1]: Boolean
++ isShareable [1-1]: Boolean
++ status [1-1]: String
++ apNameOrDescription [0-1]: String
++ apAlreadyExistsNonEudamed [1-1]: Boolean
+--
+**Internal**
+--
++ createdDate [1-1]: DateTime
++ lastUpdateDate [1-1]: DateTime
++ lastUpdatedBy [1-1]: String
+}
+
+
+@enduml 

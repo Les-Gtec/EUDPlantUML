@@ -1,0 +1,106 @@
+@startuml
+title UC-VGL-005.01.04 - Device Info
+|MF or AR (Proposer/Confirmer)|
+|System|
+|MF or AR (Proposer/Confirmer)|
+start
+:Specify Regulatory Scope Type
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22531 EUDAMEDMDR-22531]]
+BR-VGL- PSR- 005.10;
+:Specify Type of Device Scope
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22541 EUDAMEDMDR-22541]]
+BR-VGL- PSR- 005.07;
+
+switch (Type of Device Scope (Single Select))
+case ( Category/Type/Group from\n Medical device\n nomenclature (EMDN) )
+  if (Regulatory Scope Type) then (MD)
+    :provide applicable legislation (MD)
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24293 EUDAMEDMDR-24293]]
+    BR-VGL- PSR- 005.10;
+  else (IVD)
+    :provide applicable legislation (IVD)
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24300 EUDAMEDMDR-24300]]
+    BR-VGL- PSR- 005.10;
+  endif
+  :provide device risk class for PSR
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24294 EUDAMEDMDR-24294]]
+  BR-VGL-816;
+  :provide device risk class for PSR
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24294 EUDAMEDMDR-24294]]
+  BR-VGL-816;
+  :provide device type
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24295 EUDAMEDMDR-24295]]
+  BR-VGL-803 & BR-VGL-MTR/PSR-014;
+  :specify the nomenclature code
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24297 EUDAMEDMDR-24297]]
+  BR-VGL-008;
+  |System|
+  :display nomenclature description
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24298 EUDAMEDMDR-24298]];
+  |MF or AR (Proposer/Confirmer)|
+  label lb_sp1
+case ( Basic UDI-DI(s)/Eudamed DI(s) ) 
+  repeat
+  label lb_sp4
+    :Select Basic UDI / Eudamed DI
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24301 EUDAMEDMDR-24301]]
+    BR-VGL- PSR- 005.11; 
+    |System|
+    :Retrieve and display 
+    Basic UDI / Eudamed DI Information
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24302 EUDAMEDMDR-24302]];
+    |MF or AR (Proposer/Confirmer)|
+  repeat while (more Basic UDI-DI(s)/Eudamed DI(s)) is (yes)
+  ->no;
+case ( UDI-DI(s)/ Eudamed ID(s) /\nReference/Catalogue number(s)/Name(s) )
+   repeat
+      :Select UDI-DI / Eudamed ID
+      [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24306 EUDAMEDMDR-24306]]
+      BR-VGL- PSR- 005. 16; 
+      |System|
+      label lb_sp3;
+      :Retrieve and display 
+      UDI-DI / Eudamed ID Information
+      [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24307 EUDAMEDMDR-24307]];
+      label lb_sp5;
+      |MF or AR (Proposer/Confirmer)|
+    repeat while (more UDI-DI(s)/Eudamed ID(s)) is (yes)
+    ->no;
+case ( UDI-DI/EUDAMED ID/\nReference/Catalogue number/Name(s)\n and UDI-PI(s)/ Serial/Lot/Batch number(s) )
+  :Select UDI-DI / Eudamed ID
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24306 EUDAMEDMDR-24306]]
+  BR-VGL- PSR- 005. 16; 
+  |System|
+  label lb_sp3;
+  :Retrieve and display 
+  UDI-DI / Eudamed ID Information
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24307 EUDAMEDMDR-24307]];
+  label lb_sp5;
+  label lb_sp6;
+  label lb_sp7;
+  |MF or AR (Proposer/Confirmer)|
+  :Select how Production Identifiers will be uploaded
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24629 EUDAMEDMDR-24629]]
+  BR-VGL-PSR -005.23 & BR-VGL-PSR -005.17; 
+  if (Manual entry of Production Identifiers) then (Yes)
+    repeat
+      :Input Production Identifier for device
+      [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24630 EUDAMEDMDR-24630]];
+      :Input Production Identifier type for device
+      [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24630 EUDAMEDMDR-24630]]
+      BR-BR-VGL-PSR- 005.18;   
+    repeat while (more Production Identifiers) is (yes)
+    ->no;
+  else (No)
+    :Upload document of Production Identifiers for device
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24632 EUDAMEDMDR-24632]];
+  endif
+endswitch
+repeat
+  :Notified Body and Certificate Information
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22492 EUDAMEDMDR-23946]]
+  BR-VGL-PSR -005-03 & BR-VGL-PSR -005-04; 
+repeat while (more Notified Bodies) is (yes)
+->no;
+stop
+@enduml

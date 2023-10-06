@@ -1,0 +1,38 @@
+@startuml
+object DeviceType {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/DI.xsd#DeviceType objectModel]]
+}
+object MDEUDeviceType #LightGreen {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/DI.xsd#MDEUDeviceType objectModel]]
+    MDEUData [1-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/LegacyDevice/EUUDIDIDataType.xsd#MDEUDataType MDEUDataType]]
+    MDEUDI [1-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/LegacyDevice/EUDIType.xsd#MDEUDIType MDEUDIType]]
+}
+object IVDEUDeviceType #LightGreen {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/DI.xsd#IVDEUDeviceType objectModel]]
+    IVDEUData [1-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/LegacyDevice/EUUDIDIDataType.xsd#IVDEUDataType IVDEUDataType]]
+    IVDEUDI [1-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/LegacyDevice/EUDIType.xsd#IVDEUDIType IVDEUDIType]]
+}
+object MDRDeviceType #LightGreen {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/DI.xsd#MDRDeviceType objectModel]]
+    MDRBasicUDI [1-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/RegulationDevice/BasicUDIType.xsd#MDRBasicUDIType MDRBasicUDIType]]
+    MDRUDIDIData [1-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/RegulationDevice/UDIDIType.xsd#MDRUDIDIDataType MDRUDIDIDataType]]
+}
+object IVDRDeviceType #LightGreen {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/DI.xsd#IVDRDeviceType objectModel]]
+    IVDRBasicUDI [1-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/RegulationDevice/BasicUDIType.xsd#IVDRBasicUDIType IVDRBasicUDIType]]
+    IVDRUDIDIData [1-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/RegulationDevice/UDIDIType.xsd#IVDRUDIDIDataType IVDRUDIDIDataType]]
+}
+object PRDeviceType #LightGreen {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/DI.xsd#PRDeviceType objectModel]]
+    PRBasicUDI [1-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/RegulationDevice/BasicUDIType.xsd#PRBasicUDIType PRBasicUDIType]]
+    PRUDIDIData [1-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/RegulationDevice/UDIDIType.xsd#PRUDIDIDataType PRUDIDIDataType]]
+}
+
+DeviceType <|-- MDEUDeviceType
+DeviceType <|-- IVDEUDeviceType
+DeviceType <|-- MDRDeviceType
+DeviceType <|-- IVDRDeviceType
+DeviceType <|-- PRDeviceType
+
+
+@enduml

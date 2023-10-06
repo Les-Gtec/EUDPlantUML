@@ -1,0 +1,9 @@
+object PersonType {
++ id [1-1]: uuid
++ firstName [1-1]: String
++ lastName [1-1]: String
++ responsabilities [1-1]: String
+--
+The contact details are ommited in this rendition for simplicity. 
+Please refer to the full Entity diagram for details
+}

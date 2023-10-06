@@ -1,0 +1,27 @@
+@startuml
+|MF or AR (Proposer/Confirmer)|
+start
+repeat
+    :UC-VGL-005.01.01 Reg. new PSR - Step 0 
+    [[https://citnet.tech.ec.europa.eu/CITnet/confluence/x/9CorSQ Confuence Link]];
+    |System|
+repeat while (Step 0 valid - MFR Ref unique?) is (no)
+:Create Blank dossier from PSR template with Eudamed ID and set state to Draft;
+repeat
+|MF or AR (Proposer/Confirmer)|
+:UC-VGL-005.01.02 - Reg. a new PSR - Administrative Information
+[[https://citnet.tech.ec.europa.eu/CITnet/confluence/x/HysrSQ Confuence Link]];
+:UC-VGL-005.01.03 - Reg. a new PSR - PSR information
+[[https://citnet.tech.ec.europa.eu/CITnet/confluence/x/PqJTSg Confuence Link]];
+:UC-VGL-005.01.04 - Reg. a new PSR - Device information
+[[https://citnet.tech.ec.europa.eu/CITnet/confluence/x/YjUrSQ Confuence Link]];
+:UC-VGL-005.01.05 - Reg. a new PSR - Manufacturer PSR Analysis
+[[https://citnet.tech.ec.europa.eu/CITnet/confluence/x/8DUrSQ Confuence Link]];
+|MF or AR (Confirmer)|
+:UC-VGL-005.01.06 - Reg. a new PSR - General comments and PSR submission
+[[https://citnet.tech.ec.europa.eu/CITnet/confluence/x/LjYrSQ Confuence Link]];
+|System|
+repeat while (All Dosier Data Valid) is (no)
+:Set Dossier State to Registered;
+stop
+@enduml

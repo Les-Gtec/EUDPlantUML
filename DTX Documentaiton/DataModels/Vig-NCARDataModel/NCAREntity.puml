@@ -1,0 +1,52 @@
+object NCAR_registration {
+    + NCAR_category [1-1] : String
+    + NCAR_MF [1-1]: NCAR_MF
+    + NCAR_AR [1-1]: NCAR_AR
+    + NCAR_isRelatedVIG [1-1]: Boolean (Eudamed Yes/No)
+    + NCAR_VigilanceRepInfo [0-..]: NCAR_VigilanceRepInfo
+    + NCAR_isRelatedDEV [1-1]: Boolean (Eudamed Yes/No)
+    + NCAR_DevInfo [0-..]: DeviceInfo
+    + NCAR_info [0-1]: String
+    + NCAR_conclusion [1-1]: String
+    + NCAR_recomm [0-1]: String
+    + NCAR_documents [0-..]: Document
+    + NCAR_countries [1-..]: String
+}
+
+object NCAR_MF {
+    +NCAR_MFisRegistered [1-1]: Boolean (Eudamed Yes/No)
+    +mfSRN[0-1]: String
+    +NCAR_MF_data[0-1]: Contact
+}
+object NCAR_AR {
+    +NCAR_isAR [1-1]: Boolean (Eudamed Yes/No)
+    +NCAR_ARisRegistered [1-1]: Boolean (Eudamed Yes/No)
+    +AR_SRN [0-1]: String
+    +AR_infor [0-1]: Contact
+}
+
+object NCAR_VigilanceRepInfo{
+    NCAR_RelatedVIGref [0-..] : VIGDossierLink
+    NCAR_RelatedVIGrefs [0-..] : NCAR_RelatedVIGrefs
+}
+
+object NCAR_RelatedVIGrefs{
+    NCAR_isRelatedVIGType [1-1] : String
+    mfrRefNumber [0-1] : String
+    NCAR_RelatedVIGCAref [0-1] : String
+}
+
+NCAR_registration::NCAR_MF --|> NCAR_MF
+NCAR_registration::NCAR_AR --|> NCAR_AR
+NCAR_registration::NCAR_VigilanceRepInfo --|> NCAR_VigilanceRepInfo
+NCAR_VigilanceRepInfo::NCAR_RelatedVIGrefs --|> NCAR_RelatedVIGrefs
+
+note left of NCAR_MF::mfSRN
+  Mandetory if NCAR_MFisRegistered is TRUE
+end note
+note left of NCAR_MF::NCAR_MF_data
+  Mandetory if NCAR_MFisRegistered is FALSE
+end note
+note left of NCAR_registration::NCAR_countries
+    Impacted countries. At least one must be provided
+end note

@@ -1,0 +1,55 @@
+@startjson
+{
+    "uuid" : "6a96cd7d-da63-4f15-98e1-1b152c7f9bc1",
+    "ulid" : "01ERER2ZZ038E5Y1TFJQRQFQ78",
+    "name" : "Abbott Rapid Dx International Limited",
+    "names" : {
+      "texts" : [ {
+        "language" : {
+          "isoCode" : "en",
+          "name" : "English"
+        },
+        "text" : "Abbott Rapid Dx International Limited",
+        "allLanguagesApplicable" : null
+      } ]
+    },
+    "actorType" : {
+      "code" : "refdata.actor-type.authorised-representative",
+      "srnCode" : "AR",
+      "category" : "ECONOMIC_ENTITY"
+    },
+    "roleName" : "Authorised Representative",
+    "countryIso2Code" : "IE",
+    "countryName" : "Ireland",
+    "countryType" : "EU_MEMBER_STATE",
+    "dateOfRegistration" : "2020-12-04T13:43:53.901",
+    "eudamedIdentifier" : "IE-AR-000000091",
+    "electronicMail" : "ardx.AR@abbott.com",
+    "telephone" : null,
+    "geographicalAddress" : "Parkmore East Business Park, H91 VK7E Galway",
+    "buildingNumber" : null,
+    "streetName" : null,
+    "postbox" : null,
+    "addressComplement" : null,
+    "postalZone" : "H91 VK7E",
+    "cityName" : "Galway",
+    "abbreviatedName" : "RDIL",
+    "abbreviatedNames" : {
+      "texts" : [ {
+        "language" : {
+          "isoCode" : "en",
+          "name" : "English"
+        },
+        "text" : "RDIL",
+        "allLanguagesApplicable" : null
+      } ]
+    },
+    "latestVersion" : true,
+    "versionNumber" : 3,
+    "associatedToUser" : false,
+    "registrationUlid" : "01ERER2ZZCVSMK16W12B2EPFMM",
+    "legislationLinks" : null,
+    "selectable" : true,
+    "srn" : "IE-AR-000000091"
+  }
+  @endjson

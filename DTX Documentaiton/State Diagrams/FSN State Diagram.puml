@@ -1,0 +1,12 @@
+note "FSN State Diagram" as N1
+
+state "Draft" as Draft
+state "Registered" as Registered
+
+[*] --> Draft
+Draft --> Registered
+
+
+
+Draft: FSN being created / edited by it's originator
+Registered: FSN Registered

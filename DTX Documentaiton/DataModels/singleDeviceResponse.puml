@@ -1,0 +1,37 @@
+@startjson
+{
+    "basicUdi": "++E307EM157J",
+    "primaryDi": " +E307228104061",
+    "uuid": "4c85cb89-88bb-4019-81ee-1215363c9e9a",
+    "ulid": "01FX3473AG0WJHEQ29A62HGQA9",
+    "basicUdiDiDataUlid": "01FJEFSQDY4NGBQM5N0HYFDN9A",
+    "riskClass": {
+        "code": "refdata.risk-class.class-iia"
+    },
+    "tradeName": "Saliva Ejectors",
+    "manufacturerName": "EURONDA S.P.A.",
+    "manufacturerSrn": "IT-MF-000007762",
+    "deviceStatusType": {
+        "code": "refdata.device-model-status.on-the-market"
+    },
+    "manufacturerNames": null,
+    "latestVersion": true,
+    "versionNumber": 1,
+    "basicUdiDataUuid": null,
+    "basicUdiDataUlid": null,
+    "basicUdiDataVersionState": null,
+    "versionState": null,
+    "deviceName": null,
+    "deviceModel": null,
+    "lastUpdateDate": null,
+    "reference": null,
+    "basicUdiDataVersionNumber": 0,
+    "issuingAgency": null,
+    "containerPackageCount": 0,
+    "mfOrPrSrn": null,
+    "applicableLegislation": null,
+    "sterile": null,
+    "multiComponent": null,
+    "deviceCriterion": null
+}
+@endjson

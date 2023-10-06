@@ -1,0 +1,174 @@
+@startuml
+object Entity #plum {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Entity.xsd#Entity objectModel]]
+    state [0-1]: [[http://gingertec.com StateEnum]]
+    version[0-1]
+    versionDate[0-1]
+}
+
+object BasicUDIType { 
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/RegulationDevice/BasicUDIType.xsd#BasicUDIType objectModel]]
+    relatedBasicUDI [0-1]
+    riskClass [1-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Common/RiskClassEnum.xsd#RiskClassEnum RiskClassEnum]]
+    (-) //model [1-1]//
+    (-) modelName [1-1]
+    identifier [1-1]
+    certificateLinks [0-1]
+}
+
+object DeviceBasicUDIType {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/RegulationDevice/BasicUDIType.xsd#DeviceBasicUDIType objectModel]]
+    //animalTissuesCells [1-1]//
+    //ARActorCode [0-1]//
+    //humanTissuesCells [1-1]//
+    //MFActorCode [1-1]//
+    ARComments [0-1]
+    clinicalInvestigaitonLinks [0-1]
+    deviceCertificateLinks [0-1]
+}
+
+object PRBasicUDIType #LightGreen {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/RegulationDevice/BasicUDIType.xsd#PRBasicUDIType objectModel]]
+    medicinalPurpose [1-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Common/LanguageSpecificNameType.xsd#LanguageSpecificTextType LanguageSpecificTextType]]
+    //PRActorCode [1-1] //
+    type [1-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/RegulationDevice/BasicUDIType.xsd#SystemProcedurePackTypeEnum SystemProcedurePackTypeEnum]]
+}
+
+object MDRBasicUDIType #LightGreen {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/RegulationDevice/BasicUDIType.xsd#MDRBasicUDIType objectModel]]
+    //humanProductCheck [1-1] //
+    //IIb_implantable_exceptions [0-1] //
+    //medicinalProductCheck [1-1] //
+    specialDevice [0-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/RegulationDevice/BasicUDIType.xsd#MDRSpecialDeviceTypeEnum MDRSpecialDeviceTypeEnum]]
+    type [1-1]: [[https://viewer.diagrams.net/https//webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/RegulationDevice/BasicUDIType.xsd#DeviceSystemProcedurePackTypeEnum DeviceStsyemProcedurePackTypeEnum]]
+    --
+    **MDApplicablePropertiesGroup [1-1]**
+    //active [1-1] //
+    //administeringMedicine [1-1] //
+    //implntable [1-1] //
+    //measuringFunction [1-1]//
+    //reusable [1-1]//
+}
+
+object MDEUDIType #LightGreen {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/LegacyDevice/EUDIType.xsd#MDEUDIType objectModel]]
+    applicableLegislation [1-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/LegacyDevice/EUDIType.xsd#MDDApplicableLegislationEnum MDDApplicableLegislationEnum]]
+}
+
+object IVDRBasicUDIType #LightGreen {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/RegulationDevice/BasicUDIType.xsd#IVDRBasicUDIType objectModel]]
+    specialDevice [0-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/RegulationDevice/BasicUDIType.xsd#IVDRSpecialDeviceTypeEnum IVDRSpecialDeviceTypeEnum]]
+    --
+    IVDApplicablePropertiesGroup [1-1]
+    //companionDiagnostics [1-1] //
+    //instrument [1-1] //
+    //kit [1-1] //
+    //microbialSubstances [1-1] //
+    //nearPatientTesting [1-1] //
+    //professionalTesting [1-1]//
+    //reagent [1-1] //
+    //selfTesting [1-1] //
+}
+
+object IVDEUDIType #LightGreen {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/LegacyDevice/EUDIType.xsd#IVDEUDIType objectModel]]
+
+}
+
+object DIIdentifierType {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/CommonDeviceType.xsd#DIIdentifierType objectModel]]
+    //DICode [1-1] //
+    IssueingEntityCode [1-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/RegulationDevice/UDIDIType.xsd#IssuingEntityTypeEnum IssuingEntityTypeEnum]]
+}
+
+object CertificateLinksType {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Links/LinkType.xsd#CertificateLinksType objectModel]]
+    certificatesLink [1-..]
+}
+
+object CertificateLinkType {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Links/LinkType.xsd#CertificateLinkType objectModel]]
+    certificate [1-1]
+    certificateType [1-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Links/LinkType.xsd#CertificateTypeEnum CertificateTypeEnum]]
+    //expiryDate [0-1] //
+    //issueDate [1-1] //
+    //startValidityDate [1-1] //
+    certificateStatus [1-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Certificate/IssuedCertificateType.xsd#CertificateStatusEnum certificateStatusEnum]]
+    //decisionDate [0-1] //
+    startingApplicabilityDate [0-1]
+}
+
+object CertificateIdentifierLinkType {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Links/LinkType.xsd#CertificateIdentifierLinkType objectModel]]
+    //certificateNumber[1-1] //
+    //certificateRevisionNumber [0-1] //
+    //NBActorCode [0-1] //
+}
+
+object Link {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Links/LinkType.xsd#Link objectModel]]
+    //version [0-1] //
+}
+
+object ModelNameGroup {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Device/CommonDeviceType.xsd#ModelNameGroup objectModel]]
+    //model //
+    //name //
+}
+object CommentsType #plum {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Common/CommentType.xsd#CommentsType objectModel]]
+    comment [1-]
+}
+
+object CommentType #plum {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Common/CommentType.xsd#CommentType objectModel]]
+    //date [0-1] //
+    //ownerActorCode[1-1] //
+    text [1-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Common/LanguageSpecificNameType.xsd#LanguageSpecificTextType LanguageSpecificTextType]]
+}
+
+object ClinicalInvestigationLinksType {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Links/LinkType.xsd#ClinicalInvestigationLinksType objectModel]]
+    clinicalInvestigationLink [1-..]
+}
+
+object ClinicalInvestigationLinkType {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Links/LinkType.xsd#ClinicalInvestigationLinkType objectModel]]
+    //clinicalInvestigationReference [1-1] //
+    nonEUApplicableCountries [0-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Common/CountryEnum.xsd#NONEUCountryEnumType NONEUCountryEnumType]]
+}
+
+object DeviceCertificateLinksType {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Links/LinkType.xsd#DeviceCertificateLinksType objectModel]]
+    deviceCertificateLink [1-..]
+}
+
+object DeviceCertificateLinkType {
+    [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Links/LinkType.xsd#DeviceCertificateLinkType objectModel]]
+    //certificateNumber [0-1] //
+    //expiryDate [0-1] //
+    //NBActorCode [1-1] //
+    //certificateRevisionNumber [0-1] //
+    certificateType [1-1]: [[https://webgate.ec.europa.eu/tools/eudamed/dtx/data/Entity/Links/LinkType.xsd#CertificateTypeEnum CertificateTypeEnum]]
+}
+
+Entity <|-- BasicUDIType
+BasicUDIType <|-- DeviceBasicUDIType
+BasicUDIType <|-- PRBasicUDIType
+DeviceBasicUDIType <|-- MDRBasicUDIType
+DeviceBasicUDIType <|-- IVDRBasicUDIType
+MDRBasicUDIType <|-- MDEUDIType
+IVDRBasicUDIType <|-- IVDEUDIType
+BasicUDIType --> DIIdentifierType
+BasicUDIType --> CertificateLinksType
+BasicUDIType --> ModelNameGroup
+DeviceBasicUDIType --> CommentsType
+DeviceBasicUDIType --> ClinicalInvestigationLinksType
+DeviceBasicUDIType --> DeviceCertificateLinksType
+CommentsType --> CommentType
+ClinicalInvestigationLinksType --> ClinicalInvestigationLinkType
+DeviceCertificateLinksType --> DeviceCertificateLinkType
+CertificateLinksType --> CertificateLinkType
+CertificateLinkType --> CertificateIdentifierLinkType
+CertificateLinkType --> Link
+@enduml

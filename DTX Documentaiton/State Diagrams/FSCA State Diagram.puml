@@ -1,0 +1,16 @@
+note "FSCA State Diagram" as N1
+
+state "Draft" as Draft
+state "Submitted" as Submitted
+state "Registered" as Registered
+
+[*] --> Draft
+Draft --> Submitted
+Submitted --> Registered : Automatically executed when all devices are linked to FSN's that are registered
+Draft --> Registered : Used when previous version of the FSCA was already in Regustered State before edit
+
+
+
+Draft: FSCA being created / edited by it's originator
+Submitted: FSCA submitted and not yet "consumed" by registered FSN's
+Registered: All devices linked to FSCA also linked to Regtstered FSN's

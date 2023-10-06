@@ -1,0 +1,1365 @@
+@startjson
+[
+  {
+    "data": {
+      "nodeType": "HEADING",
+      "nodeOptionsDataSource": null,
+      "nodeIdentifier": "NCAR_registration",
+      "uiLabel": "NCAR_registration",
+      "uiInstructionText": null,
+      "uiHelpText": null,
+      "uiParameters": [],
+      "editableRule": "NotEditable",
+      "parentHeading": null,
+      "isRepeating": false,
+      "ordinal": 1,
+      "isRequired": false,
+      "availableFields": [],
+      "nodeDefinitionId": 13719,
+      "templateId": 147,
+      "isRfiAllowed": false,
+      "dependentNodeDefinitions": null,
+      "isPublic": false,
+      "isSearchable": false,
+      "isExactSearch": true,
+      "description": null,
+      "subKey": null,
+      "nodeFlag": null,
+      "isCopyAllowed": false
+    },
+    "children": [
+      {
+        "data": {
+          "nodeType": "TEXT_MEDIUM",
+          "nodeOptionsDataSource": "ENUM_VGL_NCARcategory",
+          "nodeIdentifier": "NCAR_category",
+          "uiLabel": "NCAR_category",
+          "uiInstructionText": null,
+          "uiHelpText": null,
+          "uiParameters": [
+            {
+              "uiParameter": "typeahead",
+              "id": 14938,
+              "targetValue": null,
+              "uiLabel": null,
+              "actionType": "display",
+              "targetNodeDefId": null,
+              "targetDataNodeField": null,
+              "targetAvailableFieldIndex": null
+            },
+            {
+              "uiParameter": "subTemplate",
+              "id": 18866,
+              "targetValue": null,
+              "uiLabel": null,
+              "actionType": "refresh",
+              "targetNodeDefId": null,
+              "targetDataNodeField": null,
+              "targetAvailableFieldIndex": 1
+            }
+          ],
+          "editableRule": "NotEditable",
+          "parentHeading": 13719,
+          "isRepeating": false,
+          "ordinal": 1,
+          "isRequired": true,
+          "availableFields": [],
+          "nodeDefinitionId": 13720,
+          "templateId": 147,
+          "isRfiAllowed": false,
+          "dependentNodeDefinitions": null,
+          "isPublic": false,
+          "isSearchable": false,
+          "isExactSearch": true,
+          "description": null,
+          "subKey": null,
+          "nodeFlag": null,
+          "isCopyAllowed": false
+        },
+        "children": null
+      },
+      {
+        "data": {
+          "nodeType": "HEADING",
+          "nodeOptionsDataSource": null,
+          "nodeIdentifier": "NCAR_MF",
+          "uiLabel": "MF_details",
+          "uiInstructionText": null,
+          "uiHelpText": null,
+          "uiParameters": [],
+          "editableRule": "NotEditable",
+          "parentHeading": 13719,
+          "isRepeating": false,
+          "ordinal": 2,
+          "isRequired": false,
+          "availableFields": [],
+          "nodeDefinitionId": 13721,
+          "templateId": 147,
+          "isRfiAllowed": false,
+          "dependentNodeDefinitions": null,
+          "isPublic": false,
+          "isSearchable": false,
+          "isExactSearch": true,
+          "description": null,
+          "subKey": null,
+          "nodeFlag": null,
+          "isCopyAllowed": false
+        },
+        "children": [
+          {
+            "data": {
+              "nodeType": "TEXT_MEDIUM",
+              "nodeOptionsDataSource": "ENUM_EUD_YesNo",
+              "nodeIdentifier": "NCAR_MFisRegistered",
+              "uiLabel": "MFisRegistered",
+              "uiInstructionText": null,
+              "uiHelpText": null,
+              "uiParameters": [
+                {
+                  "uiParameter": "typeahead",
+                  "id": 14939,
+                  "targetValue": null,
+                  "uiLabel": null,
+                  "actionType": "display",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": null
+                }
+              ],
+              "editableRule": "NotEditable",
+              "parentHeading": 13721,
+              "isRepeating": false,
+              "ordinal": 1,
+              "isRequired": true,
+              "availableFields": [],
+              "nodeDefinitionId": 13722,
+              "templateId": 147,
+              "isRfiAllowed": false,
+              "dependentNodeDefinitions": null,
+              "isPublic": false,
+              "isSearchable": false,
+              "isExactSearch": true,
+              "description": null,
+              "subKey": null,
+              "nodeFlag": null,
+              "isCopyAllowed": false
+            },
+            "children": null
+          },
+          {
+            "data": {
+              "nodeType": "ACTOR",
+              "nodeOptionsDataSource": null,
+              "nodeIdentifier": "mfSRN",
+              "uiLabel": "MF_SRN",
+              "uiInstructionText": null,
+              "uiHelpText": null,
+              "uiParameters": [
+                {
+                  "uiParameter": "showIf",
+                  "id": 14940,
+                  "targetValue": "true",
+                  "uiLabel": null,
+                  "actionType": "conditionalDisplay",
+                  "targetNodeDefId": 13722,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": null
+                },
+                {
+                  "uiParameter": "filter",
+                  "id": 14941,
+                  "targetValue": "actorTypeCode=refdata.actor-type.manufacturer",
+                  "uiLabel": null,
+                  "actionType": "staticFilter",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": null
+                }
+              ],
+              "editableRule": "NotEditable",
+              "parentHeading": 13721,
+              "isRepeating": false,
+              "ordinal": 2,
+              "isRequired": true,
+              "availableFields": [],
+              "nodeDefinitionId": 13723,
+              "templateId": 147,
+              "isRfiAllowed": false,
+              "dependentNodeDefinitions": null,
+              "isPublic": false,
+              "isSearchable": false,
+              "isExactSearch": true,
+              "description": null,
+              "subKey": null,
+              "nodeFlag": "MF",
+              "isCopyAllowed": false
+            },
+            "children": null
+          },
+          {
+            "data": {
+              "nodeType": "CONTACT_MDR",
+              "nodeOptionsDataSource": null,
+              "nodeIdentifier": "NCAR_MF_data",
+              "uiLabel": "manufacturerInformation",
+              "uiInstructionText": null,
+              "uiHelpText": null,
+              "uiParameters": [
+                {
+                  "uiParameter": "showIf",
+                  "id": 14942,
+                  "targetValue": "false",
+                  "uiLabel": null,
+                  "actionType": "conditionalDisplay",
+                  "targetNodeDefId": 13722,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": null
+                }
+              ],
+              "editableRule": "NotEditable",
+              "parentHeading": 13721,
+              "isRepeating": false,
+              "ordinal": 3,
+              "isRequired": true,
+              "availableFields": [
+                {
+                  "id": 5881,
+                  "fieldName": "familyName",
+                  "uiLabel": "lrOrgName",
+                  "isRequired": true,
+                  "uiValue": null,
+                  "ordinal": 1,
+                  "datasource": null,
+                  "uiDisplay": null,
+                  "description": null
+                },
+                {
+                  "id": 7440,
+                  "fieldName": "streetName",
+                  "uiLabel": "street",
+                  "isRequired": true,
+                  "uiValue": null,
+                  "ordinal": 2,
+                  "datasource": null,
+                  "uiDisplay": null,
+                  "description": null
+                },
+                {
+                  "id": 7438,
+                  "fieldName": "buildingNumber",
+                  "uiLabel": "street-number",
+                  "isRequired": true,
+                  "uiValue": null,
+                  "ordinal": 3,
+                  "datasource": null,
+                  "uiDisplay": null,
+                  "description": null
+                },
+                {
+                  "id": 5883,
+                  "fieldName": "postalZone",
+                  "uiLabel": "lrPostCode",
+                  "isRequired": true,
+                  "uiValue": null,
+                  "ordinal": 4,
+                  "datasource": null,
+                  "uiDisplay": null,
+                  "description": null
+                },
+                {
+                  "id": 7439,
+                  "fieldName": "cityName",
+                  "uiLabel": "city-name",
+                  "isRequired": true,
+                  "uiValue": null,
+                  "ordinal": 5,
+                  "datasource": null,
+                  "uiDisplay": null,
+                  "description": null
+                },
+                {
+                  "id": 5884,
+                  "fieldName": "countryCode",
+                  "uiLabel": "lrCountry",
+                  "isRequired": true,
+                  "uiValue": null,
+                  "ordinal": 6,
+                  "datasource": "countries",
+                  "uiDisplay": null,
+                  "description": null
+                }
+              ],
+              "nodeDefinitionId": 13724,
+              "templateId": 147,
+              "isRfiAllowed": false,
+              "dependentNodeDefinitions": null,
+              "isPublic": false,
+              "isSearchable": false,
+              "isExactSearch": true,
+              "description": null,
+              "subKey": null,
+              "nodeFlag": null,
+              "isCopyAllowed": false
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+        "data": {
+          "nodeType": "HEADING",
+          "nodeOptionsDataSource": null,
+          "nodeIdentifier": "NCAR_AR",
+          "uiLabel": "AR",
+          "uiInstructionText": null,
+          "uiHelpText": null,
+          "uiParameters": [
+            {
+              "uiParameter": "showIf",
+              "id": 20770,
+              "targetValue": "NON_EU",
+              "uiLabel": null,
+              "actionType": "conditionalDisplay",
+              "targetNodeDefId": 13723,
+              "targetDataNodeField": "session.targetNode.country.type",
+              "targetAvailableFieldIndex": 1
+            }
+          ],
+          "editableRule": "NotEditable",
+          "parentHeading": 13719,
+          "isRepeating": false,
+          "ordinal": 3,
+          "isRequired": false,
+          "availableFields": [],
+          "nodeDefinitionId": 13725,
+          "templateId": 147,
+          "isRfiAllowed": false,
+          "dependentNodeDefinitions": null,
+          "isPublic": false,
+          "isSearchable": false,
+          "isExactSearch": true,
+          "description": null,
+          "subKey": null,
+          "nodeFlag": null,
+          "isCopyAllowed": false
+        },
+        "children": [
+          {
+            "data": {
+              "nodeType": "TEXT_MEDIUM",
+              "nodeOptionsDataSource": "ENUM_EUD_YesNo",
+              "nodeIdentifier": "NCAR_isAR",
+              "uiLabel": "isAR",
+              "uiInstructionText": null,
+              "uiHelpText": null,
+              "uiParameters": [
+                {
+                  "uiParameter": "typeahead",
+                  "id": 14943,
+                  "targetValue": null,
+                  "uiLabel": null,
+                  "actionType": "display",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": null
+                },
+                {
+                  "uiParameter": "showIf",
+                  "id": 20771,
+                  "targetValue": "NON_EU",
+                  "uiLabel": null,
+                  "actionType": "conditionalDisplay",
+                  "targetNodeDefId": 13723,
+                  "targetDataNodeField": "session.targetNode.country.type",
+                  "targetAvailableFieldIndex": 1
+                }
+              ],
+              "editableRule": "NotEditable",
+              "parentHeading": 13725,
+              "isRepeating": false,
+              "ordinal": 1,
+              "isRequired": true,
+              "availableFields": [],
+              "nodeDefinitionId": 13726,
+              "templateId": 147,
+              "isRfiAllowed": false,
+              "dependentNodeDefinitions": null,
+              "isPublic": false,
+              "isSearchable": false,
+              "isExactSearch": true,
+              "description": null,
+              "subKey": null,
+              "nodeFlag": null,
+              "isCopyAllowed": false
+            },
+            "children": null
+          },
+          {
+            "data": {
+              "nodeType": "TEXT_MEDIUM",
+              "nodeOptionsDataSource": "ENUM_EUD_YesNo",
+              "nodeIdentifier": "NCAR_ARisRegistered",
+              "uiLabel": "NCAR_ARisRegistered",
+              "uiInstructionText": null,
+              "uiHelpText": null,
+              "uiParameters": [
+                {
+                  "uiParameter": "typeahead",
+                  "id": 18131,
+                  "targetValue": null,
+                  "uiLabel": null,
+                  "actionType": "display",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                },
+                {
+                  "uiParameter": "showIf",
+                  "id": 18132,
+                  "targetValue": "true",
+                  "uiLabel": null,
+                  "actionType": "conditionalDisplay",
+                  "targetNodeDefId": 13726,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                }
+              ],
+              "editableRule": null,
+              "parentHeading": 13725,
+              "isRepeating": false,
+              "ordinal": 2,
+              "isRequired": true,
+              "availableFields": [],
+              "nodeDefinitionId": 17520,
+              "templateId": 147,
+              "isRfiAllowed": false,
+              "dependentNodeDefinitions": null,
+              "isPublic": false,
+              "isSearchable": false,
+              "isExactSearch": true,
+              "description": null,
+              "subKey": null,
+              "nodeFlag": null,
+              "isCopyAllowed": false
+            },
+            "children": null
+          },
+          {
+            "data": {
+              "nodeType": "ACTOR",
+              "nodeOptionsDataSource": null,
+              "nodeIdentifier": "AR_SRN",
+              "uiLabel": "AR_SRN",
+              "uiInstructionText": null,
+              "uiHelpText": null,
+              "uiParameters": [
+                {
+                  "uiParameter": "filter",
+                  "id": 18133,
+                  "targetValue": "actorTypeCode=refdata.actor-type.authorised-representative",
+                  "uiLabel": null,
+                  "actionType": "staticFilter",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                },
+                {
+                  "uiParameter": "showIf",
+                  "id": 18134,
+                  "targetValue": "true",
+                  "uiLabel": null,
+                  "actionType": "conditionalDisplay",
+                  "targetNodeDefId": 17520,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": null
+                }
+              ],
+              "editableRule": null,
+              "parentHeading": 13725,
+              "isRepeating": true,
+              "ordinal": 3,
+              "isRequired": true,
+              "availableFields": [],
+              "nodeDefinitionId": 17521,
+              "templateId": 147,
+              "isRfiAllowed": false,
+              "dependentNodeDefinitions": null,
+              "isPublic": false,
+              "isSearchable": false,
+              "isExactSearch": true,
+              "description": null,
+              "subKey": null,
+              "nodeFlag": "AR",
+              "isCopyAllowed": false
+            },
+            "children": null
+          },
+          {
+            "data": {
+              "nodeType": "CONTACT_MDR",
+              "nodeOptionsDataSource": null,
+              "nodeIdentifier": "AR_info",
+              "uiLabel": "AR_info",
+              "uiInstructionText": null,
+              "uiHelpText": null,
+              "uiParameters": [
+                {
+                  "uiParameter": "showIf",
+                  "id": 18135,
+                  "targetValue": "false",
+                  "uiLabel": null,
+                  "actionType": "conditionalDisplay",
+                  "targetNodeDefId": 17520,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": null
+                }
+              ],
+              "editableRule": null,
+              "parentHeading": 13725,
+              "isRepeating": true,
+              "ordinal": 4,
+              "isRequired": true,
+              "availableFields": [
+                {
+                  "id": 7404,
+                  "fieldName": "familyName",
+                  "uiLabel": "lrOrgName",
+                  "isRequired": true,
+                  "uiValue": null,
+                  "ordinal": 1,
+                  "datasource": null,
+                  "uiDisplay": null,
+                  "description": null
+                },
+                {
+                  "id": 7443,
+                  "fieldName": "streetName",
+                  "uiLabel": "street",
+                  "isRequired": true,
+                  "uiValue": null,
+                  "ordinal": 2,
+                  "datasource": null,
+                  "uiDisplay": null,
+                  "description": null
+                },
+                {
+                  "id": 7441,
+                  "fieldName": "buildingNumber",
+                  "uiLabel": "street-number",
+                  "isRequired": true,
+                  "uiValue": null,
+                  "ordinal": 3,
+                  "datasource": null,
+                  "uiDisplay": null,
+                  "description": null
+                },
+                {
+                  "id": 7407,
+                  "fieldName": "postalZone",
+                  "uiLabel": "lrPostCode",
+                  "isRequired": true,
+                  "uiValue": null,
+                  "ordinal": 4,
+                  "datasource": null,
+                  "uiDisplay": null,
+                  "description": null
+                },
+                {
+                  "id": 7442,
+                  "fieldName": "cityName",
+                  "uiLabel": "city-name",
+                  "isRequired": true,
+                  "uiValue": null,
+                  "ordinal": 5,
+                  "datasource": null,
+                  "uiDisplay": null,
+                  "description": null
+                },
+                {
+                  "id": 7623,
+                  "fieldName": "countryCode",
+                  "uiLabel": "lrCountry",
+                  "isRequired": true,
+                  "uiValue": null,
+                  "ordinal": 6,
+                  "datasource": "countries_mdr_list",
+                  "uiDisplay": "typeahead",
+                  "description": null
+                }
+              ],
+              "nodeDefinitionId": 17522,
+              "templateId": 147,
+              "isRfiAllowed": false,
+              "dependentNodeDefinitions": null,
+              "isPublic": false,
+              "isSearchable": false,
+              "isExactSearch": true,
+              "description": null,
+              "subKey": null,
+              "nodeFlag": null,
+              "isCopyAllowed": false
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+        "data": {
+          "nodeType": "TEXT_MEDIUM",
+          "nodeOptionsDataSource": "ENUM_EUD_YesNo",
+          "nodeIdentifier": "NCAR_isRelatedVIG",
+          "uiLabel": "NCAR_isRelatedVIG",
+          "uiInstructionText": null,
+          "uiHelpText": null,
+          "uiParameters": [
+            {
+              "uiParameter": "typeahead",
+              "id": 14947,
+              "targetValue": null,
+              "uiLabel": null,
+              "actionType": "display",
+              "targetNodeDefId": null,
+              "targetDataNodeField": null,
+              "targetAvailableFieldIndex": null
+            },
+            {
+              "uiParameter": "showIf",
+              "id": 14948,
+              "targetValue": "GEN",
+              "uiLabel": null,
+              "actionType": "conditionalDisplay",
+              "targetNodeDefId": 13720,
+              "targetDataNodeField": null,
+              "targetAvailableFieldIndex": null
+            }
+          ],
+          "editableRule": "NotEditable",
+          "parentHeading": 13719,
+          "isRepeating": false,
+          "ordinal": 4,
+          "isRequired": true,
+          "availableFields": [],
+          "nodeDefinitionId": 13729,
+          "templateId": 147,
+          "isRfiAllowed": false,
+          "dependentNodeDefinitions": null,
+          "isPublic": false,
+          "isSearchable": false,
+          "isExactSearch": true,
+          "description": null,
+          "subKey": null,
+          "nodeFlag": null,
+          "isCopyAllowed": false
+        },
+        "children": null
+      },
+      {
+        "data": {
+          "nodeType": "HEADING",
+          "nodeOptionsDataSource": null,
+          "nodeIdentifier": "NCAR_VigilanceRepInfo",
+          "uiLabel": "NCAR_VigilanceRepInfo",
+          "uiInstructionText": null,
+          "uiHelpText": null,
+          "uiParameters": [
+            {
+              "uiParameter": "showIf",
+              "id": 14946,
+              "targetValue": "CCA||VIG||GEN",
+              "uiLabel": null,
+              "actionType": "conditionalDisplay",
+              "targetNodeDefId": 13720,
+              "targetDataNodeField": null,
+              "targetAvailableFieldIndex": null
+            }
+          ],
+          "editableRule": "NotEditable",
+          "parentHeading": 13719,
+          "isRepeating": false,
+          "ordinal": 5,
+          "isRequired": false,
+          "availableFields": [],
+          "nodeDefinitionId": 13728,
+          "templateId": 147,
+          "isRfiAllowed": false,
+          "dependentNodeDefinitions": null,
+          "isPublic": false,
+          "isSearchable": false,
+          "isExactSearch": true,
+          "description": null,
+          "subKey": null,
+          "nodeFlag": null,
+          "isCopyAllowed": false
+        },
+        "children": [
+          {
+            "data": {
+              "nodeType": "DOSSIER_LINK",
+              "nodeOptionsDataSource": null,
+              "nodeIdentifier": "NCAR_RelatedVIGref",
+              "uiLabel": "NCAR_RelatedVIGref",
+              "uiInstructionText": null,
+              "uiHelpText": null,
+              "uiParameters": [
+                {
+                  "uiParameter": "typeahead",
+                  "id": 18847,
+                  "targetValue": null,
+                  "uiLabel": null,
+                  "actionType": "display",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                },
+                {
+                  "uiParameter": "filter",
+                  "id": 18848,
+                  "targetValue": "submitted||updated||acknowledged||psur_registered||psur_evaluated||psur_update",
+                  "uiLabel": null,
+                  "actionType": "reportStatus",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                },
+                {
+                  "uiParameter": "reportTypeDatasource",
+                  "id": 18849,
+                  "targetValue": "ENUM_VGL_NCARvigType",
+                  "uiLabel": null,
+                  "actionType": "config",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                },
+                {
+                  "uiParameter": "showIfOr",
+                  "id": 18850,
+                  "targetValue": "true",
+                  "uiLabel": null,
+                  "actionType": "conditionalDisplay",
+                  "targetNodeDefId": 13729,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                },
+                {
+                  "uiParameter": "showIfOr",
+                  "id": 18851,
+                  "targetValue": "CCA||VIG",
+                  "uiLabel": null,
+                  "actionType": "conditionalDisplay",
+                  "targetNodeDefId": 13720,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                },
+                {
+                  "uiParameter": "linkValueField",
+                  "id": 20701,
+                  "targetValue": "MFR",
+                  "uiLabel": null,
+                  "actionType": "config",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                }
+              ],
+              "editableRule": null,
+              "parentHeading": 13728,
+              "isRepeating": true,
+              "ordinal": 1,
+              "isRequired": false,
+              "availableFields": [],
+              "nodeDefinitionId": 17900,
+              "templateId": 147,
+              "isRfiAllowed": false,
+              "dependentNodeDefinitions": null,
+              "isPublic": false,
+              "isSearchable": false,
+              "isExactSearch": false,
+              "description": null,
+              "subKey": null,
+              "nodeFlag": null,
+              "isCopyAllowed": false
+            },
+            "children": null
+          },
+          {
+            "data": {
+              "nodeType": "MAP",
+              "nodeOptionsDataSource": null,
+              "nodeIdentifier": "NCAR_RelatedVIGrefs",
+              "uiLabel": "NCAR_RelatedVIGrefs",
+              "uiInstructionText": null,
+              "uiHelpText": null,
+              "uiParameters": [
+                {
+                  "uiParameter": "showIfOr",
+                  "id": 14949,
+                  "targetValue": "true",
+                  "uiLabel": null,
+                  "actionType": "conditionalDisplay",
+                  "targetNodeDefId": 13729,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": null
+                },
+                {
+                  "uiParameter": "showIfOr",
+                  "id": 14950,
+                  "targetValue": "CCA||VIG",
+                  "uiLabel": null,
+                  "actionType": "conditionalDisplay",
+                  "targetNodeDefId": 13720,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": null
+                }
+              ],
+              "editableRule": "NotEditable",
+              "parentHeading": 13728,
+              "isRepeating": true,
+              "ordinal": 2,
+              "isRequired": false,
+              "availableFields": [
+                {
+                  "id": 5888,
+                  "fieldName": "NCAR_isRelatedVIGType",
+                  "uiLabel": "NCAR_isRelatedVIGType",
+                  "isRequired": true,
+                  "uiValue": null,
+                  "ordinal": 1,
+                  "datasource": "ENUM_VGL_NCARvigType",
+                  "uiDisplay": "typeahead",
+                  "description": null
+                },
+                {
+                  "id": 5889,
+                  "fieldName": "mfrRefNumber",
+                  "uiLabel": "mfrRefNumber",
+                  "isRequired": false,
+                  "uiValue": null,
+                  "ordinal": 2,
+                  "datasource": null,
+                  "uiDisplay": "inputText",
+                  "description": null
+                },
+                {
+                  "id": 5890,
+                  "fieldName": "NCAR_RelatedVIGCAref",
+                  "uiLabel": "NCAR_RelatedVIGCAref",
+                  "isRequired": false,
+                  "uiValue": null,
+                  "ordinal": 3,
+                  "datasource": null,
+                  "uiDisplay": "inputText",
+                  "description": null
+                }
+              ],
+              "nodeDefinitionId": 13730,
+              "templateId": 147,
+              "isRfiAllowed": false,
+              "dependentNodeDefinitions": null,
+              "isPublic": false,
+              "isSearchable": false,
+              "isExactSearch": true,
+              "description": null,
+              "subKey": null,
+              "nodeFlag": null,
+              "isCopyAllowed": false
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+        "data": {
+          "nodeType": "TEXT_MEDIUM",
+          "nodeOptionsDataSource": "ENUM_EUD_YesNo",
+          "nodeIdentifier": "NCAR_isRelatedDEV",
+          "uiLabel": "NCAR_isRelatedDEV",
+          "uiInstructionText": null,
+          "uiHelpText": null,
+          "uiParameters": [
+            {
+              "uiParameter": "typeahead",
+              "id": 14952,
+              "targetValue": null,
+              "uiLabel": null,
+              "actionType": "display",
+              "targetNodeDefId": null,
+              "targetDataNodeField": null,
+              "targetAvailableFieldIndex": null
+            },
+            {
+              "uiParameter": "showIf",
+              "id": 14953,
+              "targetValue": "GEN",
+              "uiLabel": null,
+              "actionType": "conditionalDisplay",
+              "targetNodeDefId": 13720,
+              "targetDataNodeField": null,
+              "targetAvailableFieldIndex": null
+            },
+            {
+              "uiParameter": "subTemplate",
+              "id": 20526,
+              "targetValue": null,
+              "uiLabel": null,
+              "actionType": "refresh",
+              "targetNodeDefId": null,
+              "targetDataNodeField": null,
+              "targetAvailableFieldIndex": 1
+            }
+          ],
+          "editableRule": "NotEditable",
+          "parentHeading": 13719,
+          "isRepeating": false,
+          "ordinal": 6,
+          "isRequired": true,
+          "availableFields": [],
+          "nodeDefinitionId": 13732,
+          "templateId": 147,
+          "isRfiAllowed": false,
+          "dependentNodeDefinitions": null,
+          "isPublic": false,
+          "isSearchable": false,
+          "isExactSearch": true,
+          "description": null,
+          "subKey": null,
+          "nodeFlag": null,
+          "isCopyAllowed": false
+        },
+        "children": null
+      },
+      {
+        "data": {
+          "nodeType": "HEADING",
+          "nodeOptionsDataSource": null,
+          "nodeIdentifier": "NCAR_DevInfo",
+          "uiLabel": "deviceInformation",
+          "uiInstructionText": null,
+          "uiHelpText": null,
+          "uiParameters": [
+            {
+              "uiParameter": "showIfOr",
+              "id": 14951,
+              "targetValue": "DEV",
+              "uiLabel": null,
+              "actionType": "conditionalDisplay",
+              "targetNodeDefId": 13720,
+              "targetDataNodeField": null,
+              "targetAvailableFieldIndex": null
+            },
+            {
+              "uiParameter": "accordion",
+              "id": 18512,
+              "targetValue": null,
+              "uiLabel": null,
+              "actionType": "displayChildrenNode",
+              "targetNodeDefId": null,
+              "targetDataNodeField": null,
+              "targetAvailableFieldIndex": 1
+            },
+            {
+              "uiParameter": "showIfOr",
+              "id": 18639,
+              "targetValue": "true",
+              "uiLabel": null,
+              "actionType": "conditionalDisplay",
+              "targetNodeDefId": 13732,
+              "targetDataNodeField": null,
+              "targetAvailableFieldIndex": 1
+            }
+          ],
+          "editableRule": "NotEditable",
+          "parentHeading": 13719,
+          "isRepeating": false,
+          "ordinal": 7,
+          "isRequired": false,
+          "availableFields": [],
+          "nodeDefinitionId": 13731,
+          "templateId": 147,
+          "isRfiAllowed": false,
+          "dependentNodeDefinitions": null,
+          "isPublic": false,
+          "isSearchable": false,
+          "isExactSearch": true,
+          "description": null,
+          "subKey": null,
+          "nodeFlag": null,
+          "isCopyAllowed": false
+        },
+        "children": [
+          {
+            "data": {
+              "nodeType": "CHILD_TEMPLATE",
+              "nodeOptionsDataSource": null,
+              "nodeIdentifier": "NACR_Devform",
+              "uiLabel": "deviceInformation",
+              "uiInstructionText": null,
+              "uiHelpText": null,
+              "uiParameters": [
+                {
+                  "uiParameter": "childTemplate",
+                  "id": 18348,
+                  "targetValue": "201",
+                  "uiLabel": null,
+                  "actionType": "display",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                },
+                {
+                  "uiParameter": "repeatManually",
+                  "id": 18507,
+                  "targetValue": null,
+                  "uiLabel": null,
+                  "actionType": "display",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                },
+                {
+                  "uiParameter": "showIfOr",
+                  "id": 18676,
+                  "targetValue": "DEV",
+                  "uiLabel": null,
+                  "actionType": "conditionalDisplay",
+                  "targetNodeDefId": 13720,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                },
+                {
+                  "uiParameter": "showIfOr",
+                  "id": 18677,
+                  "targetValue": "true",
+                  "uiLabel": null,
+                  "actionType": "conditionalDisplay",
+                  "targetNodeDefId": 13732,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                }
+              ],
+              "editableRule": null,
+              "parentHeading": 13731,
+              "isRepeating": true,
+              "ordinal": 1,
+              "isRequired": false,
+              "availableFields": [],
+              "nodeDefinitionId": 17654,
+              "templateId": 147,
+              "isRfiAllowed": false,
+              "dependentNodeDefinitions": null,
+              "isPublic": false,
+              "isSearchable": false,
+              "isExactSearch": false,
+              "description": null,
+              "subKey": null,
+              "nodeFlag": null,
+              "isCopyAllowed": false
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+        "data": {
+          "nodeType": "HEADING",
+          "nodeOptionsDataSource": null,
+          "nodeIdentifier": "NCAR_Comment",
+          "uiLabel": "NCAR_Comment",
+          "uiInstructionText": null,
+          "uiHelpText": null,
+          "uiParameters": [],
+          "editableRule": "NotEditable",
+          "parentHeading": 13719,
+          "isRepeating": false,
+          "ordinal": 8,
+          "isRequired": false,
+          "availableFields": [],
+          "nodeDefinitionId": 13734,
+          "templateId": 147,
+          "isRfiAllowed": false,
+          "dependentNodeDefinitions": null,
+          "isPublic": false,
+          "isSearchable": false,
+          "isExactSearch": true,
+          "description": null,
+          "subKey": null,
+          "nodeFlag": null,
+          "isCopyAllowed": false
+        },
+        "children": [
+          {
+            "data": {
+              "nodeType": "TEXT_MEDIUM",
+              "nodeOptionsDataSource": null,
+              "nodeIdentifier": "NCAR_Comments",
+              "uiLabel": "NCAR_Comments",
+              "uiInstructionText": null,
+              "uiHelpText": null,
+              "uiParameters": [
+                {
+                  "uiParameter": "textarea",
+                  "id": 14957,
+                  "targetValue": null,
+                  "uiLabel": null,
+                  "actionType": "display",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": null
+                }
+              ],
+              "editableRule": "NotEditable",
+              "parentHeading": 13734,
+              "isRepeating": false,
+              "ordinal": 1,
+              "isRequired": true,
+              "availableFields": [],
+              "nodeDefinitionId": 13735,
+              "templateId": 147,
+              "isRfiAllowed": false,
+              "dependentNodeDefinitions": null,
+              "isPublic": false,
+              "isSearchable": false,
+              "isExactSearch": true,
+              "description": null,
+              "subKey": null,
+              "nodeFlag": null,
+              "isCopyAllowed": false
+            },
+            "children": null
+          },
+          {
+            "data": {
+              "nodeType": "TEXT_MEDIUM",
+              "nodeOptionsDataSource": null,
+              "nodeIdentifier": "NCAR_info",
+              "uiLabel": "NCAR_info",
+              "uiInstructionText": null,
+              "uiHelpText": null,
+              "uiParameters": [
+                {
+                  "uiParameter": "textarea",
+                  "id": 18872,
+                  "targetValue": null,
+                  "uiLabel": null,
+                  "actionType": "display",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                }
+              ],
+              "editableRule": null,
+              "parentHeading": 13734,
+              "isRepeating": false,
+              "ordinal": 2,
+              "isRequired": true,
+              "availableFields": [],
+              "nodeDefinitionId": 17906,
+              "templateId": 147,
+              "isRfiAllowed": false,
+              "dependentNodeDefinitions": null,
+              "isPublic": false,
+              "isSearchable": false,
+              "isExactSearch": false,
+              "description": "Background information for the NCAR",
+              "subKey": null,
+              "nodeFlag": null,
+              "isCopyAllowed": false
+            },
+            "children": null
+          },
+          {
+            "data": {
+              "nodeType": "TEXT_MEDIUM",
+              "nodeOptionsDataSource": null,
+              "nodeIdentifier": "NCAR_conclusion",
+              "uiLabel": "NCAR_conclusion",
+              "uiInstructionText": null,
+              "uiHelpText": null,
+              "uiParameters": [
+                {
+                  "uiParameter": "textarea",
+                  "id": 18873,
+                  "targetValue": null,
+                  "uiLabel": null,
+                  "actionType": "display",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                }
+              ],
+              "editableRule": null,
+              "parentHeading": 13734,
+              "isRepeating": false,
+              "ordinal": 3,
+              "isRequired": true,
+              "availableFields": [],
+              "nodeDefinitionId": 17907,
+              "templateId": 147,
+              "isRfiAllowed": false,
+              "dependentNodeDefinitions": null,
+              "isPublic": false,
+              "isSearchable": false,
+              "isExactSearch": false,
+              "description": "Conclusions of the NCAR",
+              "subKey": null,
+              "nodeFlag": null,
+              "isCopyAllowed": false
+            },
+            "children": null
+          },
+          {
+            "data": {
+              "nodeType": "TEXT_MEDIUM",
+              "nodeOptionsDataSource": null,
+              "nodeIdentifier": "NCAR_recomm",
+              "uiLabel": "NCAR_recomm",
+              "uiInstructionText": null,
+              "uiHelpText": null,
+              "uiParameters": [
+                {
+                  "uiParameter": "textarea",
+                  "id": 18874,
+                  "targetValue": null,
+                  "uiLabel": null,
+                  "actionType": "display",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                }
+              ],
+              "editableRule": null,
+              "parentHeading": 13734,
+              "isRepeating": false,
+              "ordinal": 4,
+              "isRequired": false,
+              "availableFields": [],
+              "nodeDefinitionId": 17908,
+              "templateId": 147,
+              "isRfiAllowed": false,
+              "dependentNodeDefinitions": null,
+              "isPublic": false,
+              "isSearchable": false,
+              "isExactSearch": false,
+              "description": "Recommendations of the NCAR, if any",
+              "subKey": null,
+              "nodeFlag": null,
+              "isCopyAllowed": false
+            },
+            "children": null
+          },
+          {
+            "data": {
+              "nodeType": "DOCUMENT_MDR",
+              "nodeOptionsDataSource": null,
+              "nodeIdentifier": "NCAR_documents",
+              "uiLabel": "NCAR_documents",
+              "uiInstructionText": null,
+              "uiHelpText": null,
+              "uiParameters": [
+                {
+                  "uiParameter": "inputFile",
+                  "id": 18871,
+                  "targetValue": null,
+                  "uiLabel": null,
+                  "actionType": "display",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                }
+              ],
+              "editableRule": null,
+              "parentHeading": 13734,
+              "isRepeating": true,
+              "ordinal": 5,
+              "isRequired": false,
+              "availableFields": [],
+              "nodeDefinitionId": 17909,
+              "templateId": 147,
+              "isRfiAllowed": false,
+              "dependentNodeDefinitions": null,
+              "isPublic": false,
+              "isSearchable": false,
+              "isExactSearch": false,
+              "description": "Document(s) related to the NCAR, if any",
+              "subKey": null,
+              "nodeFlag": null,
+              "isCopyAllowed": false
+            },
+            "children": null
+          },
+          {
+            "data": {
+              "nodeType": "MULTI_CHECKBOX",
+              "nodeOptionsDataSource": "countries_mdr_list",
+              "nodeIdentifier": "NCAR_countries",
+              "uiLabel": "NCAR_countries",
+              "uiInstructionText": null,
+              "uiHelpText": null,
+              "uiParameters": [
+                {
+                  "uiParameter": "layout",
+                  "id": 18869,
+                  "targetValue": "vertical",
+                  "uiLabel": null,
+                  "actionType": "config",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                },
+                {
+                  "uiParameter": "checkAll",
+                  "id": 18870,
+                  "targetValue": "true",
+                  "uiLabel": null,
+                  "actionType": "config",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                },
+                {
+                  "uiParameter": "notify",
+                  "id": 20676,
+                  "targetValue": "NTF-VGL-010",
+                  "uiLabel": null,
+                  "actionType": "notification",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                },
+                {
+                  "uiParameter": "notify",
+                  "id": 20677,
+                  "targetValue": "NTF-VGL-009",
+                  "uiLabel": null,
+                  "actionType": "notification",
+                  "targetNodeDefId": null,
+                  "targetDataNodeField": null,
+                  "targetAvailableFieldIndex": 1
+                }
+              ],
+              "editableRule": null,
+              "parentHeading": 13734,
+              "isRepeating": true,
+              "ordinal": 6,
+              "isRequired": true,
+              "availableFields": [],
+              "nodeDefinitionId": 17910,
+              "templateId": 147,
+              "isRfiAllowed": false,
+              "dependentNodeDefinitions": null,
+              "isPublic": false,
+              "isSearchable": true,
+              "isExactSearch": true,
+              "description": "Impacted countries. At least one must be provided",
+              "subKey": null,
+              "nodeFlag": null,
+              "isCopyAllowed": false
+            },
+            "children": null
+          }
+        ]
+      }
+    ]
+  }
+]
+@endjson

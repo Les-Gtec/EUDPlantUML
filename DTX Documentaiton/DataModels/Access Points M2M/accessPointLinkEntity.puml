@@ -1,0 +1,26 @@
+@startuml
+!include personEntitySimplified.puml
+!include accessPointLinkToModuleEntity.puml
+
+object AccessPointLink {
++ id[1-1]:uuid
++ actorCode [1-1]: ActorType:actorCode
++ accessPointId [1-1]: AccessPointType:id
++ legalContact [1-1]: PersonType:id
++ technicalContact [1-1]: PersonType:id
++ justificationDocument [0-1]: documentType:id
++ authorisationDocument [0-1]: documentType:id
++ status [1-1]: String
++ disclaimerDateAccepted [1-1]: Date
+--
+**Internal**
+--
++ createdDate [1-1]: DateTime
++ lastUpdateDate [1-1]: DateTime
++ lastUpdatedBy [1-1]: String
+}
+
+AccessPointLink }|-- PersonType 
+AccessPointLink }o-- AccessPointLinkToModuleType 
+
+@enduml 

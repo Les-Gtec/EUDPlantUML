@@ -1,0 +1,25 @@
+note "Access Point State Diagram" as N1
+
+state "Draft" as Draft
+state "Submitted" as Submitted
+state "Connectivity Under Validation" as ConnectivityValidation
+state "Active" as Active
+state "Terminated" as Terminated
+state "Rejected" as Rejected
+
+[*] --> Draft
+Draft --> Submitted
+Submitted --> Rejected
+Rejected --> [*]
+Submitted --> ConnectivityValidation
+ConnectivityValidation --> Rejected
+ConnectivityValidation --> Active
+Active --> Terminated
+
+
+Draft: Access point information with Actor not submitted
+Submitted: Access Point Request being reviewed (in conjunction with the first Access Point Link)
+ConnectivityValidation: EU Send team doing set up and connectivity verification
+Active: Active and working
+Terminated: Access point no longer being used by any actors for Eudamed
+Rejected: Access point Request Rejected

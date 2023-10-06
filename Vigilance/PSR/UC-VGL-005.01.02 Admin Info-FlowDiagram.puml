@@ -1,0 +1,43 @@
+@startuml
+title UC-VGL-005.01.02 - Admin Info
+|MF or AR (Proposer/Confirmer)|
+|System|
+|AR / Non EU MF (Proposer/Confirmer)|
+|MF or AR (Proposer/Confirmer)|
+start
+|System|
+:Display PSR Status of "Under Approval"
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22484 EUDAMEDMDR-22484]]
+BR-VGL-PSR- 005.04;
+|MF or AR (Proposer/Confirmer)|
+:Select the Coordinating Competent Authority country 
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22451 EUDAMEDMDR-22451]]
+BR-VGL-PSR- 005.03;
+:Select the Coordinating Competent Authority 
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22457 EUDAMEDMDR-22457]]
+BR-VGL-PSR- 005.09;
+:Provide MF contact Details
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22494 EUDAMEDMDR-22494]];
+|System|
+if (Current Actor) then (AR OR Non EU MF) 
+    |AR / Non EU MF (Proposer/Confirmer)|
+    :Select relevant AR from dropdown
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22497 EUDAMEDMDR-22497]]
+    BR-VGL-PSR- 005.08;
+    :Provide AR contact Details
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-224948 EUDAMEDMDR-22498]];
+else (EU MF)
+    |MF or AR (Proposer/Confirmer)|
+endif
+:Indicate contact details for current PSR
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22495 EUDAMEDMDR-22495]]
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-22499 EUDAMEDMDR-22499]]
+ BR-VGL-PSR- 005.06;
+if (contact details for current PSR) then (Other)
+    :Provide PSR contact Details
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-224945 EUDAMEDMDR-22495]]
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-224949 EUDAMEDMDR-22499]];
+endif
+|System|
+stop
+@enduml

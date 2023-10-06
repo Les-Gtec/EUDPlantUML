@@ -1,0 +1,11 @@
+object ServiceType {
++ id[1-1]:uuid
++ description [1-1]: String
+--
+**Internal**
+--
++ createdDate [1-1]: DateTime
++ lastUpdateDate [1-1]: DateTime
++ lastUpdatedBy [1-1]: String
+}
+
