@@ -1,0 +1,38 @@
+@startuml
+title UC-VGL-005.01.05 - General Info and Submit
+|MF or AR (proposer/Confirmer)|
+|System|
+|MF or AR (Confirmer)|
+|MF or AR (proposer/Confirmer)|
+start
+:provide General Comments
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24645 EUDAMEDMDR-24645]];
+|MF or AR (Confirmer)|
+:Select Submit option
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24646 EUDAMEDMDR-24646]];
+:Confirm Submit of form
+[[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24646 EUDAMEDMDR-24646]];
+if (Confirmed form submission) then (No)
+  stop
+else (Yes)
+|System|
+  :Validate all form data
+  [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24646 EUDAMEDMDR-24646]]
+  BR-VGL-PSR-005.13;
+  if (All Form Data Valid) Then (No)
+    :Display Validation Error Message
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24646 EUDAMEDMDR-24646]]
+    BR-VGL-PSR-005.13;
+    stop
+  else (Yes)
+    :Set Dossier State to Registered
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24646 EUDAMEDMDR-24646]]
+    BR-VGL-PSR-005.12;
+    :Trigger Notification to referenced CA 
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24649 EUDAMEDMDR-24649]]
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24643 EUDAMEDMDR-24643]];
+    :Trigger Notification to linked EO's / NB's 
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24649 EUDAMEDMDR-24649]]
+    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-24657 EUDAMEDMDR-24657]];
+    stop
+@enduml
