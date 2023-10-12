@@ -12,13 +12,15 @@ case ( FSCA )
   :confirm if the bases of the PSR is linked to
    incidents described in FSCA(s) 
   [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-23944 EUDAMEDMDR-23944]];
-  if (FSCA in Eudamed) then (Yes) 
-    :provide FSCA reference (Repeating)
-    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-23945 EUDAMEDMDR-23945]];
-  else (No)
-    :provide MFR FSCA reference string 
-    [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-23972 EUDAMEDMDR-23972]];
-  endif
+  repeat
+    if (FSCA in Eudamed) then (Yes) 
+      :provide FSCA reference (Repeating)
+      [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-23945 EUDAMEDMDR-23945]];
+    else (No)
+      :provide MFR FSCA reference string 
+      [[https://citnet.tech.ec.europa.eu/CITnet/jira/browse/EUDAMEDMDR-23972 EUDAMEDMDR-23972]];
+    endif
+  repeat while (more FSCA's) is (Yes)
 case ( DSVG ) 
   label sp_lab0
   :provide relevant reference name 
